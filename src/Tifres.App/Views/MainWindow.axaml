@@ -1,0 +1,135 @@
+<Window xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:vm="using:Tifres.App.ViewModels" xmlns:views="using:Tifres.App.Views"
+ x:Class="Tifres.App.Views.MainWindow" x:DataType="vm:MainWindowViewModel"
+ Title="{Binding Title}" Width="1440" Height="960" MinWidth="900" MinHeight="650"
+ Background="#F1F3F5" WindowStartupLocation="CenterScreen">
+ <Design.DataContext><vm:MainWindowViewModel /></Design.DataContext>
+ <Grid x:Name="WorkspaceGrid" Margin="6">
+  <Grid.ColumnDefinitions>
+   <ColumnDefinition Width="2*" MinWidth="300" />
+   <ColumnDefinition Width="6" />
+   <ColumnDefinition Width="*" MinWidth="330" />
+  </Grid.ColumnDefinitions>
+  <Grid x:Name="DisplayGrid">
+   <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="*" MinWidth="85" />
+    <ColumnDefinition Width="6" />
+    <ColumnDefinition Width="4*" MinWidth="200" />
+   </Grid.ColumnDefinitions>
+   <Grid.RowDefinitions>
+    <RowDefinition Height="4*" MinHeight="150" />
+    <RowDefinition Height="6" />
+    <RowDefinition Height="2*" MinHeight="150" />
+   </Grid.RowDefinitions>
+   <Border x:Name="InformationPanel" Grid.Row="0" Grid.Column="0" Classes="panel">
+    <ScrollViewer x:Name="InformationScroll" HorizontalScrollBarVisibility="Disabled">
+     <StackPanel Spacing="4">
+      <TextBlock Text="{Binding Title}" FontSize="13" FontWeight="Bold" Foreground="#156A86" />
+      <TextBlock Text="{Binding InstrumentName}" TextWrapping="Wrap" Classes="muted" FontSize="11" />
+      <Separator />
+      <TextBlock Text="Observation" Classes="heading" />
+      <TextBlock x:Name="InformationDsno" Text="{Binding Operations.SelectedDsno, StringFormat='DSNO: {0}'}" TextWrapping="Wrap" FontWeight="SemiBold" />
+      <TextBlock Text="{Binding Dataset.Selected.DataType}" TextWrapping="Wrap" />
+      <TextBlock Text="{Binding Dataset.Selected.Filename}" TextWrapping="Wrap" ToolTip.Tip="{Binding Dataset.Selected.Filename}" FontSize="11" />
+      <TextBlock Text="{Binding Operations.Status}" Classes="muted" TextWrapping="Wrap" />
+      <TextBlock Text="Observation notes" />
+      <TextBox x:Name="ObservationNotes" Classes="multiline" Text="{Binding ObservationNotes, Mode=TwoWay}"
+       Watermark="Add a note…" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="54" AutomationProperties.Name="Observation notes" />
+      <Separator />
+      <TextBlock Text="Display controls" Classes="heading" TextWrapping="Wrap" />
+      <StackPanel x:Name="DisplayControls" DataContext="{Binding Display}" x:DataType="vm:IfuDisplayViewModel" Spacing="1">
+       <WrapPanel>
+        <Button Content="Open FITS" Click="OpenFits" IsEnabled="{Binding !IsLoading}" />
+        <Button Content="DSNO FITS" Click="OpenDatasetFits" IsEnabled="{Binding !IsLoading}" />
+        <Button Content="Reload" Click="ReloadFits" IsEnabled="{Binding !IsLoading}" />
+        <Button Content="Close" Click="CloseFits" />
+       </WrapPanel>
+       <TextBlock Text="{Binding Filename}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Filename}" FontSize="11" />
+       <TextBlock Text="{Binding CubeInfo}" TextWrapping="Wrap" FontSize="11" />
+       <TextBlock Text="{Binding ViewerStatus}" TextWrapping="Wrap" FontSize="11" />
+       <TextBlock Text="Wavelength" FontWeight="SemiBold" />
+       <TextBlock Text="{Binding WavelengthInfo}" TextWrapping="Wrap" FontSize="11" />
+       <ComboBox ItemsSource="{Binding IntegrationModes}" SelectedItem="{Binding IntegrationMode, Mode=TwoWay}" HorizontalAlignment="Stretch" />
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="λ1" ToolTip.Tip="Single wavelength or inclusive interval start" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="WaveFirstControl" Text="{Binding WaveFirst, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" ToolTip.Tip="{Binding WaveFirst}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Single wavelength or inclusive interval start" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="λ2" ToolTip.Tip="Inclusive wavelength interval end" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="WaveLastControl" IsEnabled="{Binding IsInterval}" Text="{Binding WaveLast, Mode=TwoWay, UpdateSourceTrigger=LostFocus}" ToolTip.Tip="{Binding WaveLast}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Inclusive wavelength interval end" /></Grid></WrapPanel>
+       <Slider Height="26" MinHeight="26" Minimum="{Binding SliderMin}" Maximum="{Binding SliderMax}" TickFrequency="{Binding SliderStep}" IsSnapToTickEnabled="True" Value="{Binding SliderValue, Mode=TwoWay}" />
+       <TextBlock Text="{Binding WaveError}" TextWrapping="Wrap" Foreground="#B42318" FontSize="11" />
+       <WrapPanel><Button Content="−" Click="ZoomOut" ToolTip.Tip="Zoom out wavelength axis" /><Button Content="+" Click="ZoomIn" ToolTip.Tip="Zoom in wavelength axis" /><Button Content="Full" Click="ResetZoom" /></WrapPanel>
+       <TextBlock Text="Wheel: zoom. Shift-wheel: pan. Drag spectrum: pan." TextWrapping="Wrap" FontSize="11" />
+       <TextBlock Text="IFU intensity" FontWeight="SemiBold" />
+       <CheckBox Content="Auto range" IsChecked="{Binding AutoIfu, Mode=TwoWay}" />
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Min" ToolTip.Tip="IFU Min" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="IfuMinControl" Text="{Binding IfuMin, Mode=TwoWay}" ToolTip.Tip="{Binding IfuMin}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="IFU Min" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Max" ToolTip.Tip="IFU Max" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="IfuMaxControl" Text="{Binding IfuMax, Mode=TwoWay}" ToolTip.Tip="{Binding IfuMax}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="IFU Max" /></Grid></WrapPanel>
+       <TextBlock Text="{Binding IfuRangeError}" TextWrapping="Wrap" Foreground="#B42318" FontSize="11" />
+       <WrapPanel><CheckBox x:Name="InvertXControl" Content="Invert X" IsChecked="{Binding InvertX, Mode=TwoWay}" /><CheckBox x:Name="InvertYControl" Content="Invert Y" IsChecked="{Binding InvertY, Mode=TwoWay}" /></WrapPanel>
+       <TextBlock Text="Fiber selection" FontWeight="SemiBold" />
+       <TextBlock Text="{Binding SelectionText}" TextWrapping="Wrap" FontSize="11" />
+       <TextBlock Text="Click: one · Ctrl: toggle · Drag: group. Dark: inactive; purple: invalid." TextWrapping="Wrap" FontSize="11" />
+       <ComboBox ItemsSource="{Binding CombinationModes}" SelectedItem="{Binding CombinationMode, Mode=TwoWay}" HorizontalAlignment="Stretch" ToolTip.Tip="Combine selected fiber spectra" />
+       <CheckBox Content="1D auto range" IsChecked="{Binding AutoSpectrum, Mode=TwoWay}" />
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Min" ToolTip.Tip="1D intensity minimum" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="SpectrumMinControl" Text="{Binding SpectrumMin, Mode=TwoWay}" ToolTip.Tip="{Binding SpectrumMin}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="1D intensity minimum" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Max" ToolTip.Tip="1D intensity maximum" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="SpectrumMaxControl" Text="{Binding SpectrumMax, Mode=TwoWay}" ToolTip.Tip="{Binding SpectrumMax}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="1D intensity maximum" /></Grid></WrapPanel>
+       <TextBlock Text="{Binding SpectrumError}" TextWrapping="Wrap" Foreground="#B42318" FontSize="11" />
+       <CheckBox x:Name="EllipseEnabledControl" Content="Ellipse" IsChecked="{Binding EllipseEnabled, Mode=TwoWay}" />
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Wid" ToolTip.Tip="Ellipse full width" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="EllipseWidthControl" Text="{Binding Width, Mode=TwoWay}" ToolTip.Tip="{Binding Width}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Ellipse full width" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Hei" ToolTip.Tip="Ellipse full height" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="EllipseHeightControl" Text="{Binding Height, Mode=TwoWay}" ToolTip.Tip="{Binding Height}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Ellipse full height" /></Grid></WrapPanel>
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Cx" ToolTip.Tip="Ellipse center X" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="EllipseCenterXControl" Text="{Binding CenterX, Mode=TwoWay}" ToolTip.Tip="{Binding CenterX}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Ellipse center X" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Cy" ToolTip.Tip="Ellipse center Y" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="EllipseCenterYControl" Text="{Binding CenterY, Mode=TwoWay}" ToolTip.Tip="{Binding CenterY}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Ellipse center Y" /></Grid></WrapPanel>
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="PA" ToolTip.Tip="Position angle, degrees CCW" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="EllipseAngleControl" Text="{Binding Angle, Mode=TwoWay}" ToolTip.Tip="{Binding Angle}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Position angle, degrees CCW" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Col" ToolTip.Tip="Line color name or #RRGGBB" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="EllipseLineColorControl" Text="{Binding LineColor, Mode=TwoWay}" ToolTip.Tip="{Binding LineColor}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Line color name or #RRGGBB" /></Grid></WrapPanel>
+       <TextBlock Text="{Binding EllipseError}" TextWrapping="Wrap" Foreground="#B42318" FontSize="11" />
+       <TextBlock Text="Spectral image" FontWeight="SemiBold" />
+       <CheckBox Content="Auto range" IsChecked="{Binding AutoSpectral, Mode=TwoWay}" />
+       <WrapPanel><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Min" ToolTip.Tip="Spectral image Min" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="SpectralMinControl" Text="{Binding SpectralMin, Mode=TwoWay}" ToolTip.Tip="{Binding SpectralMin}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Spectral image Min" /></Grid><Grid ColumnDefinitions="22,*" Width="78" Margin="0,1,2,1"><TextBlock Text="Max" ToolTip.Tip="Spectral image Max" FontSize="11" VerticalAlignment="Center" /><TextBox Grid.Column="1" x:Name="SpectralMaxControl" Text="{Binding SpectralMax, Mode=TwoWay}" ToolTip.Tip="{Binding SpectralMax}" FontSize="11" Padding="2" MinWidth="0" AutomationProperties.Name="Spectral image Max" /></Grid></WrapPanel>
+       <TextBlock Text="{Binding SpectralRangeError}" TextWrapping="Wrap" Foreground="#B42318" FontSize="11" />
+       <TextBlock Text="{Binding StorageMessage}" TextWrapping="Wrap" Foreground="#B42318" FontSize="11" />
+      </StackPanel>
+     </StackPanel>
+    </ScrollViewer>
+   </Border>
+   <Border x:Name="SpectralImagePanel" Grid.Row="0" Grid.Column="2" Classes="panel">
+    <Grid RowDefinitions="Auto,*,Auto" ColumnDefinitions="Auto,*" RowSpacing="4" ColumnSpacing="4">
+     <TextBlock Grid.ColumnSpan="2" Classes="heading" Text="2D spectral image · original fibers 0–119" />
+     <LayoutTransformControl Grid.Row="1" VerticalAlignment="Center">
+      <LayoutTransformControl.LayoutTransform><RotateTransform Angle="-90" /></LayoutTransformControl.LayoutTransform>
+      <TextBlock Classes="axis" Text="IFU number" />
+     </LayoutTransformControl>
+     <Border Grid.Row="1" Grid.Column="1" Classes="plot">
+      <views:SpectralImageLayer x:Name="SpectralPreview" DataContext="{Binding Display}" />
+     </Border>
+     <StackPanel Grid.Row="2" Grid.Column="1"><TextBlock Classes="axis" Text="{Binding Display.ZoomInfo}" HorizontalAlignment="Center" /><TextBlock Text="{Binding Display.CursorText}" FontSize="11" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Display.CursorText}" /></StackPanel>
+    </Grid>
+   </Border>
+   <Border x:Name="IfuPanel" Grid.Row="2" Grid.Column="0" Classes="panel">
+    <Grid RowDefinitions="Auto,*,Auto" RowSpacing="4">
+     <TextBlock Classes="heading" Text="IFU intensity" TextWrapping="Wrap" />
+     <Viewbox x:Name="IfuAspectBox" Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+      <Grid x:Name="IfuGeometry" Width="100" Height="120" DataContext="{Binding Display}">
+       <views:IfuImageLayer x:Name="IfuImage" />
+       <views:IfuOverlayLayer x:Name="IfuOverlay" />
+      </Grid>
+     </Viewbox>
+     <TextBlock Grid.Row="2" Text="10 × 12 · +Y up" Classes="muted" FontSize="11" TextWrapping="Wrap" HorizontalAlignment="Center" />
+    </Grid>
+   </Border>
+   <Border x:Name="SpectrumPanel" Grid.Row="2" Grid.Column="2" Classes="panel">
+    <Grid RowDefinitions="Auto,*,Auto" ColumnDefinitions="Auto,*" RowSpacing="4" ColumnSpacing="4">
+     <TextBlock Grid.ColumnSpan="2" Classes="heading" Text="{Binding Display.IntensityInfo, StringFormat='1D spectrum · {0}'}" TextTrimming="CharacterEllipsis" />
+     <LayoutTransformControl Grid.Row="1" VerticalAlignment="Center">
+      <LayoutTransformControl.LayoutTransform><RotateTransform Angle="-90" /></LayoutTransformControl.LayoutTransform>
+      <TextBlock Classes="axis" Text="Intensity" />
+     </LayoutTransformControl>
+     <Border Grid.Row="1" Grid.Column="1" Classes="plot">
+      <views:SpectrumLayer x:Name="SpectrumPlot" DataContext="{Binding Display}" />
+     </Border>
+     <TextBlock Grid.Row="2" Grid.Column="1" Classes="axis" Text="{Binding Display.ZoomInfo}" HorizontalAlignment="Center" />
+    </Grid>
+   </Border>
+   <GridSplitter x:Name="DisplayColumnSplitter" Grid.Column="1" Grid.RowSpan="3" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" HorizontalAlignment="Stretch" />
+   <GridSplitter x:Name="DisplayRowSplitter" Grid.Row="1" Grid.ColumnSpan="3" ResizeDirection="Rows" ResizeBehavior="PreviousAndNext" VerticalAlignment="Stretch" />
+  </Grid>
+  <GridSplitter x:Name="WorkspaceSplitter" Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext" HorizontalAlignment="Stretch" />
+  <Border x:Name="ControlPanel" Grid.Column="2" Classes="panel" Padding="5">
+   <TabControl x:Name="ControlTabs">
+    <TabItem Header="Dataset" IsEnabled="{Binding CanEdit}"><views:DatasetView DataContext="{Binding Dataset}" /></TabItem>
+    <TabItem Header="Settings" IsEnabled="{Binding CanEdit}"><views:SettingsView DataContext="{Binding Settings}" /></TabItem>
+    <TabItem Header="Operations" IsEnabled="{Binding !QuickLook.IsRunning}"><views:OperationsView DataContext="{Binding Operations}" /></TabItem>
+    <TabItem Header="Quick Look" IsEnabled="{Binding !Operations.IsRunning}"><views:QuickLookView DataContext="{Binding QuickLook}" /></TabItem>
+   </TabControl>
+  </Border>
+ </Grid>
+</Window>

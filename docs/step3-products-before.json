@@ -1,0 +1,1338 @@
+[
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-reduction.lock",
+    "Hash": "5FECEB66FFC86F38D952786C6D696C79C2DBC239DD4E91B46729D73A27FB57E9"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\20260914\\skyA01_clf590w.sp.fits",
+    "Hash": "C17346EB40C58D0B2A38A88E227029FF15B6355FFFC61D1F6DB1142EE1017B23"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\20260914\\skyA01_clf590w.sp.w5fsp.fits",
+    "Hash": "C964A11BB66AC376A113D9C2831F7CE54D19CCAC896EC9C68CFC7CF83D804BEA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\20260914\\skyA01_clf590w.sp.w5img.fits",
+    "Hash": "19070233345D7A87FD15B0359851C8F11A4D2DE5B55DFDE05113E2C9BAF92EDE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\20260914\\skyA01_clf590w.sp.w5wc.fits",
+    "Hash": "2D1694BC34E07D8D2DDF8DDD82FAF64F318B024A9533BDE67B82468928015CBE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\20260914\\skyA01_clf590w.sp.w5wmp.fits",
+    "Hash": "F27B9533C493FC3DD47725A6090A10B504B9323AEEFD15FA713DE1BB978DF6D4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\20260914\\wlA00_clf590w.sp.w5fsp.fits",
+    "Hash": "48F1AD66C320EB0C85FE3AF28BC17B03969E0B56A7E901D2D87694616173339B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib000.png",
+    "Hash": "48AB68D143BAF3FBED01C2A769FB9E5D69EE76350F632F8F890C9F119D11C36B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib001.png",
+    "Hash": "41B51A823E0F0A9EC1E564500AF5BC8349D2DF7F07203E7D64A1CF6F8599062E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib002.png",
+    "Hash": "1B4DA1E3F7215299ADDFD2704FC39D98866EB8F5452AF80E65D42153479FEEC7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib003.png",
+    "Hash": "38496F64335824FDB78E07079819F242B47A65D5465CBAFAB79C001A47C25378"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib004.png",
+    "Hash": "996EE31F1962C262722E1EEEAFAEFEAE04E3006953B1C48C8EA511C5C18D53C2"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib005.png",
+    "Hash": "30B4616BA9250B903839BB77B9D638A0989D50505AA5A6682339F9DE040A5B83"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib007.png",
+    "Hash": "74C1862A07DB8B1DE6C196ED6CD2DAD940D0598E6021A068AF969A4B327802BD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib008.png",
+    "Hash": "ACC707128548329171FCF6696EA8FAD42FBB1B60FD1D16D795E9282CEF4330FF"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib009.png",
+    "Hash": "2B3DCA7D20534CFD02CB5346041F3D2875C876571F35DDE135BCAB27BA9C45F2"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib010.png",
+    "Hash": "CB8DB68BE86F2B558490963534BCB89AE96E12151BC4915FE247E548131C36C4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib011.png",
+    "Hash": "7A040CCBFFED96234575DE261D548579DD6C7C16FFD1A5FA4B862A3C6E05C71E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib012.png",
+    "Hash": "43C9FA2408F7906E5A2BCAA7A7B452D1D894D5FD8874DA5CE3D47BA23ECC9593"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib013.png",
+    "Hash": "A67C789482549F06668E0438E116A949238F4428E4F1AB5A0CFCD597D973C271"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib014.png",
+    "Hash": "A2F475AEA8912A10784CCB97CD820CC57FA180D79B32C568F09BF0C6D9B0F8E9"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib015.png",
+    "Hash": "24579A7C273B79D4A0C18D08AD96EFDC6D27C7E8973678369FE4770F4729DE9A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib016.png",
+    "Hash": "BBAAD866DE47DC65A9B9AED478A34350CE308144B3B63DBCC6282D3BB5BC9B37"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib017.png",
+    "Hash": "5198E0BF206F27DDA96B95B1A8160B369462BA9BA2EC40BB2CCAD801A43D0561"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib018.png",
+    "Hash": "FC77F81335582295E275625DF968F2D55341F326126BB33787EBD5EAFA314643"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib019.png",
+    "Hash": "E2C3433C2F560320242C5F7F88612876025D05E5042F719F7F89DD214038AD10"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib020.png",
+    "Hash": "40AB067624E24A871528E4D5EFE622FCA686A5CB29EE1EE2D1B4CDA7233C281B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib021.png",
+    "Hash": "C1852746B88AA044424D34680A1AE56EE6059FDBEDD3454C258B045E4108AF86"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib022.png",
+    "Hash": "B6EC0F3DD97B5D6A9F80996A8694AC4DB3172D8068E170952BBB5CAB368A9B00"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib023.png",
+    "Hash": "7B06DB53AC41DCB7D6856DE18DAB517964B847403522EB57410DFBB3B24A012F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib024.png",
+    "Hash": "9F0CB86389C46ECD83A5E48F23A5D405195C9F39076AE316DAF40B2FDE0537BD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib025.png",
+    "Hash": "5DF9F5A1CA0C569BF6C2DC1A5690B7F5E16AA4F21F5D0F05224438E4A14F04BE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib026.png",
+    "Hash": "9B4FD7BD3787F4CEA93B16AF60A1C4AADF404DBE967109ACF047247707BC4F17"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib027.png",
+    "Hash": "1B33D7D278E4909695A28443F9A90B7FE4D1907B1B07100878B6FD6B45A21316"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib028.png",
+    "Hash": "0ADC28B760C844B538416F36CF8EC7855906678DE675115EEC064E4C838E5961"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib029.png",
+    "Hash": "7CBC87DDA89F84C4A5FA70A0DAAEAEAF57E589754057F883CFA98B534AEEAA0C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib030.png",
+    "Hash": "C7D4DA0C7885AC69D326274E65B0462116B721C3CBDF72FFB3B0766C4BC92CAD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib031.png",
+    "Hash": "322C26076AC15C5D73DA8228DC2690D59C11101D11DE7AE970A01DB8C6780429"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib032.png",
+    "Hash": "1CC99FB0A558485F5DE02030234E5A4B10CA84D072F89ED185D14F1262AB8DDA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib033.png",
+    "Hash": "4F1F3150C770708DBD2DB7045360509189605383500D83AF72E178CA65E24163"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib034.png",
+    "Hash": "C671917228EE42E527C00AFA021D5DF9C8277E5AC8E6EBCA94DAC20FF47E21C4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib035.png",
+    "Hash": "C4CE8CC72FB05EA868BC116BD825CFE0100A1126D0A39528AF339B1D4DA6F6D4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib036.png",
+    "Hash": "E9C176151904224E5F9FBB45E018F94F3D32F8720A2E2B5E12B2AD6506540E35"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib037.png",
+    "Hash": "EBB485D51E4E26B71280E20019AD18CA11AF3040ADDC989C4A562D72935E0E35"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib038.png",
+    "Hash": "09A5736435467A19353FCB78152B9203F0A2E972EDEB87B5745DA0DE2816077D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib039.png",
+    "Hash": "4C56D59A370C54B401A2446C045B83EC9EF98E9D3C69C0903E9EADBA47A26C1C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib040.png",
+    "Hash": "E8B05A54D5A8F62CAF2B9B20CFEAFB2ECAD01CF1227F67E703B969ED2B5CF827"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib041.png",
+    "Hash": "486692833D00B85CAD979D2B2BCF2325BECF2AAD64C03DD7C32882152899C302"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib042.png",
+    "Hash": "B3C31E6A2D28FEF4F21703EC987706D1EE687D70C770241CD3B058BC645EE6BD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib043.png",
+    "Hash": "9B7D8B7C4AAC0FA90BA51C3263DF19F9D345B3C284AA79964E64D9DE6FB5B391"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib044.png",
+    "Hash": "A389BCA4B71E00CE291DD478DA0A2E7F63749663F182413B5C8E48784FB89476"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib045.png",
+    "Hash": "81CBC4E7980E95A6008DBB8B4368577B7DB6927914ACABA55D56EADD0203B7BE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib046.png",
+    "Hash": "DD0B81F76938BC018128CD6FFC2FCC3D2B32F8A2026070F805B982093A4B0771"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib047.png",
+    "Hash": "6A05540CF5D9B61106B81E8206D4DDA9AD74B34B6D93D39DA4C140C1A49B1C3E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib048.png",
+    "Hash": "0330C1D8D66DFCAC3EF67EDE64AA3BE5DD9C4630322A3BA67023401B05932448"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib050.png",
+    "Hash": "9DBAE33E97CE2653906BFE220EC569B80201431300860B5A3495B40E7996AE2B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib051.png",
+    "Hash": "64176C4388C36ADFEFCA60CC554DE2CB70F8D1DD7A9BA11806FA4C4EFA7A947A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib052.png",
+    "Hash": "FC042A61275DBCE4704C58BCAD4CC73856941AB2AF6E528BF48916A763DAB8F0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib053.png",
+    "Hash": "3399ADC9C284348AA05203DFB53618C04646F8A3F63E17474D7394361DF54FF1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib054.png",
+    "Hash": "F7619A8F6B5F86FC65DB920F974BB3563A987E8110E0E1B6D727E7D2BDC2C41E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib055.png",
+    "Hash": "C6F2C7B278779B8C0DEE0A974F4FF1288BDA97DF7C8D096AAAE2DBA02C284941"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib056.png",
+    "Hash": "1179FF81FF12D27BECD5816EAAF51057727BF0E95BB56193DC2E165336B7EF0A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib057.png",
+    "Hash": "22AED7717F2F4D2774DA07EA98A4D8267BC1E2139B84FA3FC54D160D1001B434"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib058.png",
+    "Hash": "C042B67F580D2B4088DBE1BBEFA88069C4E8EE91EFA8B319BBF9F35BA777E64C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib059.png",
+    "Hash": "EB6F40458D4281D183B64A9B7FA7DC7A4773FC22595D209B428680086B45EC38"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib060.png",
+    "Hash": "4FAB04C11172748C0AF46BFA104AF9D13878DA8C59F78D825BEDC01B234BF6A3"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib061.png",
+    "Hash": "39A7E9298DEC0F2F92753C34067FF382EEEB6155B89F6C716FFFBC8668F4BE51"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib062.png",
+    "Hash": "3C0AA5C74240A6EA9D6E49BBCD80F3A6D4034C47E8F432F2C2949894E890701E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib063.png",
+    "Hash": "37CA4F7D1506F0DFADD17374E7B32D8667A0D93A611E6C473A6B91D046F1BBFC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib064.png",
+    "Hash": "B11E9B0514804EDFB2A43C692C31BD2F3CA17DA48904A3AE37E88AAD8CF067DC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib065.png",
+    "Hash": "B08942BCE2F15AC3EB4B2DA76FBC25B2201F4CE1DAEAB113C05D0F1C4105119D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib066.png",
+    "Hash": "792EA14245B66841BC3788E5C3A345E53D313BA0BFC2879A8EE388D82FA07704"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib067.png",
+    "Hash": "9D4CEBC50E845AA2D289A349F2E89055E2906B6F56B7B255808042BEF3F9984B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib068.png",
+    "Hash": "E82573AB381B51D7AD3DFD2E917C877C06E7017C743E5CEF161F56CD5EED7185"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib070.png",
+    "Hash": "7A745F0FA56BA353E5DA83A7C4F9EFD6BC3B3E238657125115B787FE079BE578"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib071.png",
+    "Hash": "B3A0B5B08337D812B084DE9D9AD7190D0764362E5F1F25DEA9B748B324E8E4B3"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib072.png",
+    "Hash": "729CA0C676DBF114B5774FA1F23E3B855E5544F1F429F52747D63B0A391820DD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib073.png",
+    "Hash": "3BDDCAF2175806AE8E6017E3657D91632B4E8E0AD6CBB5B5890666152738433B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib074.png",
+    "Hash": "D8FCF8E58EFBF30F06439D1A48AB685998B2339F69CBDC3426E09DEF9743AD4E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib075.png",
+    "Hash": "C0BADD4505C2EC5AB338897F25F8ADBC33CE60768437B63633F70261A8F58E71"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib076.png",
+    "Hash": "48AE9B8DF07A7092ACE2EAC4897C733AE4F99FEB73E1D1CCFACA8C72A03DB2C7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib077.png",
+    "Hash": "4CD5A8B8588031EEB4AD6F82DD4D1DE60B2EFC9B07FD03C1CB6AB79B9A722B65"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib078.png",
+    "Hash": "EF47BF33EF2229A03E7F2F0462E0FA265A10B1DD32E33B362D11947DECA117E8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib079.png",
+    "Hash": "671631195432136E3674F10F78988DCC73286198499250802EEC589F66676091"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib080.png",
+    "Hash": "B07E759D9C0BE3E87F20BB9FECAB2FEE42E1BE81AB9207B8F502C0C8E4D81E39"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib081.png",
+    "Hash": "54AA4C5CD1D8BB44ADE4CA07F92DC9F8F91074B9D88310DB4B546FC4BA3B2730"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib082.png",
+    "Hash": "377FE43A5D424AC475F6F9D47B68B3CCE86D2160F657802C8FE9DCE28C62FF6B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib083.png",
+    "Hash": "10B99331230BF6FA7FFE60542D6B15F7F2409E08A86E4F84404C304508FD6452"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib084.png",
+    "Hash": "F994156F547E0B2300C1DC639D31B2D53BF486CFDE80FF2C1C8A14AC5FFE7986"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib085.png",
+    "Hash": "0EEDB71B902509308BB69369332FDC60FA1FBC159C369CF092181F5EDFC02CA8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib086.png",
+    "Hash": "071FC224012CC219CF55BE583C03214092D34B55AB6C050DFC7AB0EEF161323C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib087.png",
+    "Hash": "AE05757070C8B9A3633C0C2AA519072E882A0FC94D93CB73B41422010D8EBF01"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib088.png",
+    "Hash": "BB90C695B011436A4885EB5C4D65921E51F1DA44945DF6C85938B921240C907A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib090.png",
+    "Hash": "7299C29E21C4005EB5E3B1D3DAA16B456CA2670B1774571A575B7D8E5300E812"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib091.png",
+    "Hash": "242CA5692C85BF66D6B1F977A7790F22455A0129CAA0D35A9AA65B8BB7C12E87"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib092.png",
+    "Hash": "CCCE8DEE2AEEE4255C79FA2DEE9D84C2427937D43BEFB4DF1D9D25C5452886EB"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib093.png",
+    "Hash": "2A01D0D827999BA9970C55E87610CA9C06F8CDCA8BB04309B9A0F6DF748F27DF"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib095.png",
+    "Hash": "5B2564374C3F5BB8FF214AF85790D6CD8D8F70A72FD3177057954C593F51456D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib096.png",
+    "Hash": "854F9DA597F2BBE446A3211669200F46DD1DFA835B56A0078089AA7524997474"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib097.png",
+    "Hash": "2BBFED2F049ACC340BB308E9D843B1FB7E82533973D7FC61444127ED4FA83559"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib098.png",
+    "Hash": "2D66C442A0D0CC693152A4E922371D587EA14DC03444BC9F9A17411023D419C2"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib099.png",
+    "Hash": "3861FEFB54863E8ED3D7CFFFA82B7C3D8F0BCC718CF1AE8FEF40CFB5FBC0AAC8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib100.png",
+    "Hash": "28B08E8BCAF10B5DA97938BD801D47B52B42D216F7816C299CB2EB87D71A272B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib101.png",
+    "Hash": "CC6932B153FA97FA295944223149D0790A084B58DDE1193D12EAB1B9AC5F954C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib102.png",
+    "Hash": "96B1F0D09A62DFC93F13A5CBD9733917F2671405DD044581269859E6872EFC7F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib103.png",
+    "Hash": "B3780178E281154D72B93C350A74F73F175A3554E98D19372D7F933AA73FC2AA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib104.png",
+    "Hash": "4D1EFD11060D44B091841EA75C39274B7C34D0C08A2240309B69C24A4EED85A8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib105.png",
+    "Hash": "5C0E32B24982FBED8F82545DA6AA56E7E939D2676F536FBCCF1D6FCAE4A1F910"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib106.png",
+    "Hash": "DC9FEDD30DD7677127FA0E57C3749FB2D6831BDBE8CC87C036488C29A9131190"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib107.png",
+    "Hash": "D38B4741A9F7F1A39C64C4672E80E1C5EBBFE2A8E7B53E6AED635D99D133FC92"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib108.png",
+    "Hash": "83AB28DC84797EFE34F4ED5D755BB4F28CFEF38985F0EDCD168EA082856481A6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib110.png",
+    "Hash": "3758C07FCE9E72C95DCEDEA5EB93010E8CEB3A9B0A6525D69FBD14071091590E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib111.png",
+    "Hash": "E1BDFF1F375CA5FDE981CFE33D293EA647E3465CEC8E8848C3C7C8B3493FD419"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib112.png",
+    "Hash": "11B2F24C211F426B1BDFF821BFF59437C2D5D7529232E2EDD8EAAE74AD988BB1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib113.png",
+    "Hash": "94EA42D2A5EA1E3AAE195F4A1B1972EA6C7E7ABCC3C8F14C1108D4C3B1A2BAEE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib114.png",
+    "Hash": "52957E1E1925834D51F24FCECAB3716C523F154F056939B4538DD5DF9B5307A7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib115.png",
+    "Hash": "40247A2E9E30065FEB9D6D3526F0A8ADF85DC124B23D6BAF0B59186D90C1FADD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib116.png",
+    "Hash": "1DD2082A073A478E9417B5F0988881D0BFF17BFE4F5A9398B1261EDC0707FBAE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib118.png",
+    "Hash": "F78F076767E7DD9DB1169B7D1409FB32E833D9FE4E07E276835759C2BD6643B0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\108841525bec44919cb1800732aa7667\\png\\mkWcalSpec4d\\260914111\\skyA01_clf590w.sp.w5wc_ifib119.png",
+    "Hash": "60E0BE9B4696EA2EBA52EE2CE2CE3F15921736CD29960E42D3C9C508BC0B3D95"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\3e822ebda8bd4462a3a509afbd7391f0\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\3e822ebda8bd4462a3a509afbd7391f0\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\3e822ebda8bd4462a3a509afbd7391f0\\20260914\\wlA00_clf590w.sp.fits",
+    "Hash": "738BDA518DAA841CBC4EB8195C1BF86F228DA56FE49EEEA80D7C1EA7E3DE2067"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\3e822ebda8bd4462a3a509afbd7391f0\\20260914\\wlA00_clf590w.sp.m.fits",
+    "Hash": "068604E31671CF62ACB18CFB9A802AF8A6B65078F8E387377A686FB4941AF30A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\3e822ebda8bd4462a3a509afbd7391f0\\bk\\20260918152653dataset.csv",
+    "Hash": "EE5B2A25E827E5E0323B503AE5001463AB94145B8D1E48BCB71D3D6816006EDB"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\3e822ebda8bd4462a3a509afbd7391f0\\png\\mkSpFrames4f\\260914\\260914010_wlA00_clf590w.sp_1.png",
+    "Hash": "3278FF45DF4B94FEFB546CC3895CEFDC693D7D720AD0C1FC4C401E9DBD9D5236"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\5853d8dcbb9347a1b71336d44929bb8a\\dataset.csv",
+    "Hash": "A02943E841C080DB816D5C35C81D1EA2B8CF526467FAFF57626896C1DED8A1AE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\5853d8dcbb9347a1b71336d44929bb8a\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\5853d8dcbb9347a1b71336d44929bb8a\\20260914\\skyA01_clf590w.sp.fits",
+    "Hash": "C17346EB40C58D0B2A38A88E227029FF15B6355FFFC61D1F6DB1142EE1017B23"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\5853d8dcbb9347a1b71336d44929bb8a\\20260914\\skyA01_clf590w.sp.m.fits",
+    "Hash": "599D6B9A248B967CBA0166AF19A3C089CEE047C3336AB265A9CC132527BD7C9F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\5853d8dcbb9347a1b71336d44929bb8a\\bk\\20260918085827dataset.csv",
+    "Hash": "1C50838A64F236518AC0D2C27B4F63CF0F700889E4C27EE4145A153597098188"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\5853d8dcbb9347a1b71336d44929bb8a\\png\\mkSpFrames4f\\260914\\260914111_skyA01_clf590w.sp_1.png",
+    "Hash": "04FCA67002E48A35ABE92089A7944D53A13034731E1D9214F52D6866C8AB42D1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\641a4172a414433186ac19e34393a2bc\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\641a4172a414433186ac19e34393a2bc\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\641a4172a414433186ac19e34393a2bc\\20260914\\wlA00_clf590w.sp.fib.fits",
+    "Hash": "E7200DA2E97FE733017410FAA348BC026F0956DCF319E1EF9220CE0E86FA9CF7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\641a4172a414433186ac19e34393a2bc\\20260914\\wlA00_clf590w.sp.fits",
+    "Hash": "738BDA518DAA841CBC4EB8195C1BF86F228DA56FE49EEEA80D7C1EA7E3DE2067"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\641a4172a414433186ac19e34393a2bc\\20260914\\wlA00_clf590w.sp.w5fsp.fits",
+    "Hash": "48F1AD66C320EB0C85FE3AF28BC17B03969E0B56A7E901D2D87694616173339B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\641a4172a414433186ac19e34393a2bc\\png\\mkFibSpec4d\\20260914\\260914010_wlA00_clf590w.sp_ifib055.png",
+    "Hash": "EA5CEE1F69F5734A1AB6ABA416572BDEDAB2105C400D2ADD0B2FDF20E37D85D8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\dataset.csv",
+    "Hash": "EE5B2A25E827E5E0323B503AE5001463AB94145B8D1E48BCB71D3D6816006EDB"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\20260914\\veA01_clf590w.sp.fits",
+    "Hash": "B254D10216C3E1D809E6EAA0821929CF18AE1BDB2CB8C1F81416ABC09A8143AC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\20260914\\veA01_clf590w.sp.m.fits",
+    "Hash": "D809FF988F601E15F49115B105A7498571B47E74AE612264DCE99BB316EA93D6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\20260914\\veA02_clf590w.sp.fits",
+    "Hash": "C98D8E7A02306BEF1107709C8FF16BA75AC0101A5C3D238CCDA7B55E6401E141"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\20260914\\veA02_clf590w.sp.m.fits",
+    "Hash": "D9105F37C4DD8A09887BAB8DA4F70DC7DBBFDF0FAC6564E9B10B3936BDACD476"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\bk\\20260918085922dataset.csv",
+    "Hash": "A02943E841C080DB816D5C35C81D1EA2B8CF526467FAFF57626896C1DED8A1AE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\png\\mkSpFrames4f\\260914\\260914161_veA01_clf590w.sp_1.png",
+    "Hash": "7CED4C6FCD56052A2D27E7B14C5C606E6092A657645ABE834D7A1246F20A6E4C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\6bd81cef3f70422e88db85f412d2b5df\\png\\mkSpFrames4f\\260914\\260914162_veA02_clf590w.sp_1.png",
+    "Hash": "C69EDC9D1D10B22F34656604ECF024EB69EF07F35F4E7FE25D7EE93FF008EF3A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\20260914\\skyA01_clf590w.sp.w5fsp.fits",
+    "Hash": "C964A11BB66AC376A113D9C2831F7CE54D19CCAC896EC9C68CFC7CF83D804BEA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\20260914\\skyA01_clf590w.sp.w5wmp.fits",
+    "Hash": "F27B9533C493FC3DD47725A6090A10B504B9323AEEFD15FA713DE1BB978DF6D4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\20260914\\wlA00_clf590w.sp.w5fsp.fits",
+    "Hash": "48F1AD66C320EB0C85FE3AF28BC17B03969E0B56A7E901D2D87694616173339B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111_skyA01_clf590w.sp.w5wmp.png",
+    "Hash": "68C83CF33DE4B9C04B23AAAC2389F1C014FE545CE96E7CB9236C76EFDB40F7A4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_all-01.png",
+    "Hash": "8200A1F00C58E3A63505309325E1E745413C2E62846C89143E8C52D0E1917F58"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_all-02.png",
+    "Hash": "8599C729BA93D4153D2C129A55B67E780D6FB490323601AEA3062C3E48A026F1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib000.png",
+    "Hash": "AA9BCA53402480A07CD36F91B7136EE88303CC8FAAA9B28B631B6288A7D0D12C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib001.png",
+    "Hash": "F9FC6CF7CFBF07865D27B51DBBC50E076D1C2DE1A7A6A88EB2C0C1A31CCCDE04"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib002.png",
+    "Hash": "3C1069D0A45BC8CBD608A5ACE615AD422F4D9EC5D973BC88892ACEFAC50A0C2C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib003.png",
+    "Hash": "324BEE6D01E3DAC90202FED98571BD259EA153EE425B97B825D8A1BBE302A347"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib004.png",
+    "Hash": "E203794E268B38E2C4FA5E68B209EEEF10ED99EB4E76B7864B70640B1E1C2B57"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib005.png",
+    "Hash": "A34FA2C752915FCFA82935AF80AB3F0E67B462D82DB9DE5D602A41419C510C5F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib007.png",
+    "Hash": "69F94BEF195106D9B012EAC3D67AE714F4CBE2153015E77FAD72869FF64D430B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib008.png",
+    "Hash": "430293F299570E178B97C1B4233B5D400A7941A361D6D1C9DF8DD29A6C89DF71"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib009.png",
+    "Hash": "9844D69DBCCFA29B53DC2CA656864261D0FC634C610E3ABECA2C105CD9657755"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib010.png",
+    "Hash": "BEB3FF80889EF7DCCFC7863EAC14BF62C49B8F8183D70B4BC80DF259C77E5FC4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib011.png",
+    "Hash": "CE158C044B10E6FC064A660BD887F88FF0488386244AA8983D8E04ACF0E11D4D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib012.png",
+    "Hash": "435457B0EA4CDFC37C46EA333D648859032CBE85B50E555FE253C358DB8CF1D0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib013.png",
+    "Hash": "B405B8D74EB0543FFF96ABB6C5CDE854C2AC6749EAA4D056BFD50D566C6FF006"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib014.png",
+    "Hash": "5B722E26E8A9CD12DD34BA19E42EC46596214C2EFF23EB75A3F64BD01F0BAA74"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib015.png",
+    "Hash": "1689B5614BC945C028E326858B89D28BC308436ACF94E0AFFE1A06EAEF0BFFE2"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib016.png",
+    "Hash": "D1AE82A3422515B377EF45421F12DC76FBE98773CA59348C17686229DCA654B4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib017.png",
+    "Hash": "18EC2C975D3BFFC7B183259D2376BC1A81EF6DD43E807838CBD43B754B45C8B3"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib018.png",
+    "Hash": "80285195CA5CC0CF9EC69C6430B76AAE90D3C0B1C07B4457E29A41567950C935"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib019.png",
+    "Hash": "CBE193ADDCFF10496143B9173B8214280EDE5B9D877CF658EFEE7D6B4EDF7175"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib020.png",
+    "Hash": "4AF0DA65FB0BEE4E42FA300DB04F31F59E4CD2117653228A7987DE312946B214"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib021.png",
+    "Hash": "72511C2BB8CE517B35B4F41B4DB5FEF5685D3917EF5EA80133E07D8EC71FC830"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib022.png",
+    "Hash": "C8A67C6A17D3433C240F84A688F9409F79F366853FB26A687121CF63D7098ED6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib023.png",
+    "Hash": "524B3538BFDF12448B12D887960720661CB42F746348D66ECF672D6AF482B6A8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib024.png",
+    "Hash": "91797D5B53D5FA60816CC551E7FE9086190B9D57EC512B17BC8D31A7B72FD5EF"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib025.png",
+    "Hash": "DF9605BB32533EC9F291A78FE372E6EA730E05AA9A883A3C10820A9A7B4B4421"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib026.png",
+    "Hash": "C7BCF4F78D1803EF7E0405384FFDEF2CE706B067E91776F7203CE34448B1343B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib027.png",
+    "Hash": "A7EC137136E7A960C8D43FBE13B28C48A58D6672EC0DB8041680C1DEDDC80AE2"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib028.png",
+    "Hash": "15725B30221FFC6F763043EE838FC090067ED6BDDACAE55E1C8C75C88832251C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib029.png",
+    "Hash": "A8E4371F81CFA2A52B3754DC58177B3106AE02C6C1CC1CBC81862A6B31BE3E39"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib030.png",
+    "Hash": "4C6109109A9B14002D19C8DDCF72041A731D5C15B845F036AACDDF571205FC8A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib031.png",
+    "Hash": "199AB1FFDFC74959A7899BF901B4E345F7D760B699D9F96358C4B9FE5EF34A55"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib032.png",
+    "Hash": "301844CB72ADD9DEF3BBA4B1E90B98ECCCA10F1C0F3E8BEBAE14E61DB817848B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib033.png",
+    "Hash": "0B0DC60897F9847B6FC44C7D0F9ABFFE4C2A12F0B4BF891F85A97E9C97937F12"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib034.png",
+    "Hash": "152433AEC6C9129F47D96492758AA7DB11B27F858EFA3433199ADEFD5A34B2CE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib035.png",
+    "Hash": "6216B8C8E7A0E3C105E5F95281F62B2F1270C6EB22912083173903FF68019960"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib036.png",
+    "Hash": "543E4FE1790607524A3A250A51286EC1ADAFB7F1900D12601059768B850A0AF6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib037.png",
+    "Hash": "36C013E0A4FF9FF0833468B9384481F05463602870D8360C2F2C632D8537768F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib038.png",
+    "Hash": "F0942400D6FE8653143D7834FF159D549DCCDBF4E86011A69D3BA2D7B13EFF19"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib039.png",
+    "Hash": "5E0EDA03DCE9845DD20077789A1E1A693678715123E3DC48F7EAE38FCBB832A8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib040.png",
+    "Hash": "F195CB78D9CD5641174BBEA1B3809B4355C47DDE3679C7DEF2436AA9352ADEED"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib041.png",
+    "Hash": "692D12FCFD44E48F49A7C6B3030F77FD2F7714DAF4D7CEF4CB927A6074095382"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib042.png",
+    "Hash": "3144D657CBC913B73A44EA56063B9149283CEA6FBEDA196E689B7B86744DB9D0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib043.png",
+    "Hash": "046212A1859B5501989D4635341534B378ABC93EDAA3C797D88933F022CD1380"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib044.png",
+    "Hash": "07751FD89AE6340F5EA1C71F015588D080D26848360234879047806075E54EA1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib045.png",
+    "Hash": "1DC14502DE9C83230EFE9E455CC9EE5C5A1D298C7E55BFBF7E42B68BCAA4F453"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib046.png",
+    "Hash": "CA79E4C92E707A51DD7662A029BF7B4F1273CA510441D7AF89E6307DBEBD265D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib047.png",
+    "Hash": "9A63B5BDAB474133918858692BD56DE701F00F645E19941CFDE1A68F6B312BD6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib048.png",
+    "Hash": "C6DF92769767BAE1C595876AC1F2297D3E5129A257239F7490E01029A6843D76"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib050.png",
+    "Hash": "0CA7D4FACDB1C1136315296F062B049F5590E969FD24C89C188EF923634986D8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib051.png",
+    "Hash": "144B2CDBFBE2C8BBCAA5EEEE4A583FB635D65B1E574704A0218570D5406B640D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib052.png",
+    "Hash": "6148D05FA3017A1454B512610E992E62C1FC0FC289E95C33F3EA77B024225EB9"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib053.png",
+    "Hash": "896747E53D388E1A8D4935A7F9A26FFC077F6AACECBB34E00D0F78F60F9740BC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib054.png",
+    "Hash": "4DE1371DE24575BC67D7421C617F663AA61CED615E2A9C82EDC8C8937AAF3093"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib055.png",
+    "Hash": "59E2E9908FEFEE5F27EEC786DD0974D5B2D2F786F5A2E8F152DB465C1C441225"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib056.png",
+    "Hash": "3CA0D06E2AD8638A0E12B0568DEFF05C5DA6509EA22B59445A07A517DD1F69A9"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib057.png",
+    "Hash": "E85D437589AEC322455E0942F8F478044C0E5574153B895A2ED28F626AAB62EC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib058.png",
+    "Hash": "12B27C080210A051D1D69803CB8E98E6A3C97DB12AA4C2878E90C0398D9110F5"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib059.png",
+    "Hash": "B841E4771642C3D341E97F29A1327E92237277FA55B8D746709D5D52F4E752E7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib060.png",
+    "Hash": "AD311DC8F765459A5CC46C97218F5A045433C9A89E9FF9E94CF4FE88E2F6C4CA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib061.png",
+    "Hash": "1837DFCE7528F22A34942EECF1EF6617B65259D327C5643E501E3D16E8D71001"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib062.png",
+    "Hash": "4DCC9E1BEC2264F82E6708538905CD3E5FB5DD02EE4798D75666796DEA8F9E68"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib063.png",
+    "Hash": "AA872246FD75B3F5B3A605774AA4353D0A30C52E8067AB05169D349CF20203E8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib064.png",
+    "Hash": "78868E1DB7B37D07E940BDFA1332239F4F10169BE7499739F622E5EFE2C6DD04"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib065.png",
+    "Hash": "2EA885E8D5F8B599B6657F4C6086320BDA3BA4BB3F73831620AAB3805CB4B7CA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib066.png",
+    "Hash": "27CDD3F59CFD93B24DE7C1B56666408F3EBEEA79BD60F06BDE36D9A53F46C13C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib067.png",
+    "Hash": "FFFA7FEEF2E498C418617E0D3F96C21AFDE16151A9081581E46582F807D16502"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib068.png",
+    "Hash": "7B0EFB657F58CF364756B8E5BD57307D8F687CA1C517C50122793C5D1927E48F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib070.png",
+    "Hash": "24A8309670E7A67B1C7214E4FDD80051C06EF767448B6503569903ED031C3E9D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib071.png",
+    "Hash": "E5B5C4CA824F88E4BD58FFB1AC9491721839732771E58E4CFDC0DC02E583C24B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib072.png",
+    "Hash": "4CDBCAE5E5B3FE86C9685BB04E1290A0FE620570A1AADA4CB3E705632197FEA0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib073.png",
+    "Hash": "0F33F05193B0C417FA702211AD302C842B3CB69DE7A3FFA89480B6D0EF94F8EF"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib074.png",
+    "Hash": "4B5410E7D539766B1263ADF022695045BCFC04B195152A8B7B52DC71F9A8A901"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib075.png",
+    "Hash": "C00DEB1D4169AB4082C2DFED3C3C514A3394DA114C6E402DD3F0D9188233E234"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib076.png",
+    "Hash": "F8EC3BF12C1AB984CB217474463590EF8DB13995F46E4EF3BA66942D085D29C5"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib077.png",
+    "Hash": "3AE8C56242DDEF1F28A67E0D6B0CB6B5148D8D7CC498EE59D2B417EF1C049D3C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib078.png",
+    "Hash": "1FE9899B3EFA931BA697E65F043B5563D5DE18CB5078AA66BE2CA3ED16C080B0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib079.png",
+    "Hash": "26FABB61872844A0619C64EA662475D2BB53FA19004BBB807FD0B036870F0A36"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib080.png",
+    "Hash": "253AE7BCB6733B5BE3A67AC97EB87FE4359E4CC5AD0377A1167640F53BBA952D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib081.png",
+    "Hash": "900118C7DCC047F9CBCEE8758B520E9881D7841BD1E2D509DCF5CC2A8BDC8329"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib082.png",
+    "Hash": "6A78353CFB6BDFAD4735852AE196596865965972337446DABE3C9A43B9BECA13"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib083.png",
+    "Hash": "F653E7F7DA12671E0173B538567B0A305A7120AF589234A8AAFC1C6710B88021"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib084.png",
+    "Hash": "806132ACEB64407CD3625728D9F0147DB8A9E663DF062EED5FAA668F493249BC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib085.png",
+    "Hash": "B22276A888B63BD1EDA5FD7FF4AF0B2301D5EF4607ABE9CC54342E640E2EB2F0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib086.png",
+    "Hash": "AF7B01B7FFFC2111AFE7450D29091A6AD576FB7ED08A6AE0E875469C55E184BE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib087.png",
+    "Hash": "93EFDAAA40D3A40C753100FF0469ED3C7C5E092B3178C454D586B2A94D208AB0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib088.png",
+    "Hash": "CE4A5FA7535A060DF84B24861A97D0298E07E32239431908DDD278F3FA060D63"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib090.png",
+    "Hash": "8338CF100E3B28521716C91CD3EA6C26908F28A783874B686191B97DEFAF8FEA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib091.png",
+    "Hash": "B6AEC62F90189BACB755CEC6C497FF90D5D794A6E839D11C9A09A89B26080D0C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib092.png",
+    "Hash": "9AF735A61F2C3230C07A81DF6515D6C44480245BA3778A0E5311A69DFA4FA4A5"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib093.png",
+    "Hash": "74193CF971D68863C2A852C2D3BA88B533F41CC59975E2F5D45C30EE5D66F3BD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib095.png",
+    "Hash": "5E1E7A23871A5516744CD188F9EC8D6805A22220755D9B8B2AC67000AFDA7048"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib096.png",
+    "Hash": "158A5A9AD2A0E6426AB01AEDA712DE2F820C4B2ADCD963EB94043A6B73A0A766"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib097.png",
+    "Hash": "FEF23EB2AAD10CDDE5809F205FE0037B243BE9AD3A58A301FB89028DCFC5D9E5"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib098.png",
+    "Hash": "4223C0C83CE9481ECCF26F20E35C1A68A7752CE14A9313E08F0B4772EC2C7D9F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib099.png",
+    "Hash": "0C60F839AB396357802BD1B5B5DF1337CB27392F41AABC15D72872D203125338"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib100.png",
+    "Hash": "8FDF33182C43AB8FEA2E5AFE80A42D1D14C06EB0B163E17F1389E49A6CF71DD5"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib101.png",
+    "Hash": "B38A51A5A11328226B16A31DD38A374E8E7776659CB8529883D640B8D7281539"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib102.png",
+    "Hash": "642C69AD7F104CA7D3F5E1332D919E0EDE9C367C04825779F6CFC3BF1B8721FD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib103.png",
+    "Hash": "1EF66772CEB93B68205F3A64F2058B57904A0766402EC417D2E28A9E1F86B3B6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib104.png",
+    "Hash": "D5B809B03D4621505E81AEB7FF3BEA555CCF90EA0710F5B57AFD67FC1AEC6423"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib105.png",
+    "Hash": "287A44C2490317BD0B77AE66F6FBB8148D27BB135BFE2FF4BCC834F29C36AA12"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib106.png",
+    "Hash": "6E9AF4A7CDE7F7988CF31AB06E2F95867264E6378E617ED1A8AF5205D1B28E73"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib107.png",
+    "Hash": "7A1BA02CEB2E4EAAEA1BB71288C32D5A1DE04E6BEF3F496537B8005BA20AD91F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib108.png",
+    "Hash": "C655091FA4B6A8551B4B53D5CEF87910FE8B1CCB38DD3EA10ABD8858C4A236D1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib110.png",
+    "Hash": "68BB3191D13A35938D95C2A460EA72BCBF78A2A739E8DDDD92E2CE5AF87B7EDD"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib111.png",
+    "Hash": "829C9B5FD6949FF145CB660BC6DEDEF34E43326B03AF9D10908EAC8E0A7466B1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib112.png",
+    "Hash": "03665460EB1ACB058322564969045C97ACF7125B210106144443FC24E2E0F80A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib113.png",
+    "Hash": "901F57C238562303C5F0660B38F2ABBA2B3B0DE16BD2011C05C13869B5645BA1"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib114.png",
+    "Hash": "0AC695C7DB3BD7D162407543A83B26483000ED398D156C667E7959B2BAAF5AE6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib115.png",
+    "Hash": "DA3B38AA7274F8B9F437B63E8C6584E806CFDD1E5D0100703449FAE6BCFC9E7B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib116.png",
+    "Hash": "C30EA0437D27A685F59ABA4274D7A73B4ABFD35BD6CDEDA14615A1FE2B13F01E"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib118.png",
+    "Hash": "88AB5D2351123C38DF54225EE2F4AA6198173D56E2C2B1B75DB0964A6C761B2D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\png\\mkWavMap4d\\260914111\\skyA01_clf590w.sp.w5wmp_iFib119.png",
+    "Hash": "385EC0C7914041496EB80E3D0424EAB20521AD4B0DB4B5B91F1BC728236B79EB"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ad428eb2e088434aa392ccae82edfc8b\\psg\\psgrad586-596.txt",
+    "Hash": "FFBE89C15FA18F55297DAB38F194C6890B2676D17782D2FA36312FDF8E0ED7FE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\c083f429d33d49ff812030f6c4c89303\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\c083f429d33d49ff812030f6c4c89303\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\c083f429d33d49ff812030f6c4c89303\\20260914\\skyA01_clf590w.sp.fits",
+    "Hash": "C17346EB40C58D0B2A38A88E227029FF15B6355FFFC61D1F6DB1142EE1017B23"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\c083f429d33d49ff812030f6c4c89303\\png\\mkFibFit4c\\260914111\\skyA01_clf590w.sp_0.png",
+    "Hash": "F385F8384C965570E02FB0EF2EB3C382BBDD6BFF14B5BC9B864A0412035B8F20"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\eee3174d5a2d470aa888b39a89a125c9\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\eee3174d5a2d470aa888b39a89a125c9\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\eee3174d5a2d470aa888b39a89a125c9\\20260914\\skyA01_clf590w.sp.fits",
+    "Hash": "C17346EB40C58D0B2A38A88E227029FF15B6355FFFC61D1F6DB1142EE1017B23"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\eee3174d5a2d470aa888b39a89a125c9\\20260914\\skyA01_clf590w.sp.w5fsp.fits",
+    "Hash": "C964A11BB66AC376A113D9C2831F7CE54D19CCAC896EC9C68CFC7CF83D804BEA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\eee3174d5a2d470aa888b39a89a125c9\\20260914\\wlA00_clf590w.sp.fib.fits",
+    "Hash": "E7200DA2E97FE733017410FAA348BC026F0956DCF319E1EF9220CE0E86FA9CF7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\eee3174d5a2d470aa888b39a89a125c9\\png\\mkFibSpec4d\\20260914\\260914111_skyA01_clf590w.sp_ifib055.png",
+    "Hash": "9F4C66277C3846D4D258E534E843F4AE5FB20331AE765BF8C564B6EFD21C196C"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\dataset.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\20260914\\wlA00_clf590w.sp.fib.fits",
+    "Hash": "E7200DA2E97FE733017410FAA348BC026F0956DCF319E1EF9220CE0E86FA9CF7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\20260914\\wlA00_clf590w.sp.fits",
+    "Hash": "738BDA518DAA841CBC4EB8195C1BF86F228DA56FE49EEEA80D7C1EA7E3DE2067"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_0.png",
+    "Hash": "EFFB56D7E508F636277BFCFE7E77CEABD76ED60C680AAC431AFB6A9E2597E876"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_1.png",
+    "Hash": "F9D3FE24D83714F3F82ABE709114CA58CF4BB85FD09AD95A89881D64FFDA75D0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_10.png",
+    "Hash": "50506DF7C2404AADC885294025CD48FAE093063D2A7635A55CF4A963CC3E1372"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_11.png",
+    "Hash": "277CAA70789D9E27AE9F2ED9617842E672D0DA120242A93D8FF5221041418A66"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_12.png",
+    "Hash": "5477BC7B348622FF79CBCF5B622EB5501499F99A4016A8B17D74F500E096CFF8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_13.png",
+    "Hash": "330A9442EF9493373A6CF577FC7B808A6F3287D5499E8A225FA954E1ECE1AA74"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_14.png",
+    "Hash": "F0AF23AA009A133DBADF020CE55D95F8095B92538F6993912F23C52B25153AAE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_15.png",
+    "Hash": "30B5C68647005FCA5216446171774992DCFF249978F93FF71FDF2DF0A8C675F5"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_16.png",
+    "Hash": "17A9FA2C2D6487AD8DE71E6C5F291DFA0514328DF03C498AB8222DA3303E56D6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_17.png",
+    "Hash": "0559801483F4D41812CDBF46006744E4A8EDBE0BF0F4FC1B0ECDF9F926A2DAEE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_18.png",
+    "Hash": "CB2E027FEF283D0F1BBAE439512491DC216D757DD09EC1FECA7E1DD16E0E207D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_19.png",
+    "Hash": "B23ACF26B21FB86F7F7C7FBC398D92739BD75DCB5119215FC40669D8243E1FBB"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_2.png",
+    "Hash": "2CA419E7EFA6456D59B2DC468595B43E7B647AF2864033BE31EED05858D1B86A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_20.png",
+    "Hash": "88E1629BD29AA80AFA366F7C67777A00BC3C96EFA7B7A3F8C8808CAC4A5F25C0"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_21.png",
+    "Hash": "89E852B7696169593580E0FF5728BEB1781C7E916FE32BB565437B8629327A93"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_22.png",
+    "Hash": "C412A78FC83D7A6A4D83EA7DF0627590D7F2CA9146E1D29F166E7B94D724E129"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_23.png",
+    "Hash": "B68DC6C3CC1ADCB12BB2DC7AA553194D4AB5D6B91BC9C985A86DB18ECEBD68B6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_3.png",
+    "Hash": "C36858433358309D2DEF1F77BBBBEEFF27C640A0A3CE423A02B382063FC7AB9B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_4.png",
+    "Hash": "7D8FA9D438B9ACD04BEBB19F78B64AA4A6A0B203418018B4F09CF4DC2FF8E40D"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_5.png",
+    "Hash": "F332C485158D8C62BB835B479887C93A872838ACF787C453EC5FB584B01B9114"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_6.png",
+    "Hash": "CE4266305E1E98F8BBEAA97BD22D814207179301C0EE054AC8316B7A9195041A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_7.png",
+    "Hash": "6B3B657E8B4523D3013912827C9D14ABE8E34FE847E4EDBB8654EAF49C5F3EE4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_8.png",
+    "Hash": "4A21CE6F78D7705B2278131A81597E2D25CD1A44227E9A776B2470405F3B6F5F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\.tifres-runs\\ff624fb9405a460485f0e63d7ebe1987\\png\\mkFibFit4c\\260914010\\wlA00_clf590w.sp_9.png",
+    "Hash": "B75E4B9778D111702402D6B9B06AF663761BFAD787A7FC6A722D656AE86C6D83"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_20s.sp.fits",
+    "Hash": "16ADF96C9E3B517BFDF5E7F73CDC6511114FBBD1931B034C6F75585E1AF3F0B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_2m.sp.fits",
+    "Hash": "4CD26F94E664F16A27821C0392B27515F729F5102D7B56B9B6FC3E70DA5E5708"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_2s.sp.fits",
+    "Hash": "647447748F63AE35BE943177EFDD927895292EFEBFE49C9E56089EA5119C3D14"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_30s.sp.fits",
+    "Hash": "FBC8D86A181EC061902140643679E0C6B6B2358CAA7C3A6D06807C63090A38B8"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_4s.sp.fits",
+    "Hash": "8F0DBC4158B7E445F9B43079A0C99BBACDDE99CD62CBA34FA33DE448D3D11DDA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_5m.sp.fits",
+    "Hash": "04F94254AFBB6E659B6F917D326B89DCF49DAD41167A637C384505146ADE36BF"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20250123\\dk01h_90s.sp.fits",
+    "Hash": "FDFAE4F2EF1D043EA563A4090751401766F43549762B7D246C372B3EC01B68F3"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\skyA01_clf590w.sp.fits",
+    "Hash": "C17346EB40C58D0B2A38A88E227029FF15B6355FFFC61D1F6DB1142EE1017B23"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\skyA01_clf590w.sp.m.fits",
+    "Hash": "599D6B9A248B967CBA0166AF19A3C089CEE047C3336AB265A9CC132527BD7C9F"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\skyA01_clf590w.sp.w5fsp.fits",
+    "Hash": "C964A11BB66AC376A113D9C2831F7CE54D19CCAC896EC9C68CFC7CF83D804BEA"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\skyA01_clf590w.sp.w5img.fits",
+    "Hash": "19070233345D7A87FD15B0359851C8F11A4D2DE5B55DFDE05113E2C9BAF92EDE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\skyA01_clf590w.sp.w5wc.fits",
+    "Hash": "2D1694BC34E07D8D2DDF8DDD82FAF64F318B024A9533BDE67B82468928015CBE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\skyA01_clf590w.sp.w5wmp.fits",
+    "Hash": "F27B9533C493FC3DD47725A6090A10B504B9323AEEFD15FA713DE1BB978DF6D4"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\veA01_clf590w.sp.fits",
+    "Hash": "B254D10216C3E1D809E6EAA0821929CF18AE1BDB2CB8C1F81416ABC09A8143AC"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\veA01_clf590w.sp.m.fits",
+    "Hash": "D809FF988F601E15F49115B105A7498571B47E74AE612264DCE99BB316EA93D6"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\veA02_clf590w.sp.fits",
+    "Hash": "C98D8E7A02306BEF1107709C8FF16BA75AC0101A5C3D238CCDA7B55E6401E141"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\veA02_clf590w.sp.m.fits",
+    "Hash": "D9105F37C4DD8A09887BAB8DA4F70DC7DBBFDF0FAC6564E9B10B3936BDACD476"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\wlA00_clf590w.sp.fib.fits",
+    "Hash": "E7200DA2E97FE733017410FAA348BC026F0956DCF319E1EF9220CE0E86FA9CF7"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\wlA00_clf590w.sp.fits",
+    "Hash": "738BDA518DAA841CBC4EB8195C1BF86F228DA56FE49EEEA80D7C1EA7E3DE2067"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\wlA00_clf590w.sp.m.fits",
+    "Hash": "068604E31671CF62ACB18CFB9A802AF8A6B65078F8E387377A686FB4941AF30A"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\fits\\20260914\\wlA00_clf590w.sp.w5fsp.fits",
+    "Hash": "48F1AD66C320EB0C85FE3AF28BC17B03969E0B56A7E901D2D87694616173339B"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\testdata\\hmew202510MeBpy2.csv",
+    "Hash": "514C7E1823F683B7B379C099B10200F4D4B1499FEAEC559ECE2880E8D1970627"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\testdata\\hmew202510MeBpy2.csv.20260917T2356278565939Z.bak",
+    "Hash": "1C50838A64F236518AC0D2C27B4F63CF0F700889E4C27EE4145A153597098188"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\testdata\\hmew202510MeBpy2.csv.20260917T235828407178Z.bak",
+    "Hash": "1C50838A64F236518AC0D2C27B4F63CF0F700889E4C27EE4145A153597098188"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\testdata\\hmew202510MeBpy2.csv.20260917T235923374756Z.bak",
+    "Hash": "A02943E841C080DB816D5C35C81D1EA2B8CF526467FAFF57626896C1DED8A1AE"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\testdata\\hmew202510MeBpy2.csv.20260918T062654077600Z.bak",
+    "Hash": "EE5B2A25E827E5E0323B503AE5001463AB94145B8D1E48BCB71D3D6816006EDB"
+  },
+  {
+    "Path": "C:\\work\\TIFRES\\testdata\\hmew202510MeBpy2.csv.reduction.lock",
+    "Hash": "5FECEB66FFC86F38D952786C6D696C79C2DBC239DD4E91B46729D73A27FB57E9"
+  }
+]

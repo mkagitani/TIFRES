@@ -1,0 +1,27 @@
+{
+  "mkSpFrames4f": {
+    "original_sha256": "82826187df939f423dc9996dd918f231d5c826915487068009c71d1f33e3d536",
+    "normalized_ast_sha256": "80b5351a241d2124f6072d354df7854a6533ac30803b450e061ae29dc441372b",
+    "root_replacements": 5
+  },
+  "mkFibFit4c": {
+    "original_sha256": "fdb685b5440ae0fc43188b7bdb5bf9cd5ab4d2d55acb9f6fd24fb9524207de9c",
+    "normalized_ast_sha256": "e5048b2a9050290b7aa8e9faf571e388ab1de8c6755c2ae7c182a95cffddb8e7",
+    "root_replacements": 3
+  },
+  "mkFibSpec4d": {
+    "original_sha256": "2934e61658d4111885c134d3fb17613b51f6adc76ae178214d28dbe0bec95b6e",
+    "normalized_ast_sha256": "efa58c6af8cea5d5cd13951f8b837edcddb2295f994e17eb3d26643376666d8f",
+    "root_replacements": 1
+  },
+  "mkWavMap4d": {
+    "original_sha256": "57c1b870915d7f6d4da099efea6002b1976ae1bf1a3711bdfaacb494b3bb2eed",
+    "normalized_ast_sha256": "65ea1fad21c6cd2bfcef40042f851b24289df89bdd4c918660fb8218d90e81a8",
+    "root_replacements": 4
+  },
+  "mkWcalSpec4d": {
+    "original_sha256": "bb2e5ff90ddecc29a70dc5ca389f5ff023f5762c6a51cbb78708fd495b3959dc",
+    "normalized_ast_sha256": "cca53c6bf2d10b0105dba9b1948911df8ad75de57f14779b439ee8816a46f49d",
+    "root_replacements": 1
+  }
+}

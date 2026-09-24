@@ -1,0 +1,29 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:vm="using:Tifres.App.ViewModels" x:Class="Tifres.App.Views.SettingsView" x:DataType="vm:SettingsViewModel">
+ <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+  <StackPanel Spacing="4" Margin="0,3,0,0" MinWidth="300">
+   <Grid x:Name="SettingsFields" ColumnDefinitions="116,*,66" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnSpacing="4" RowSpacing="4">
+   <TextBlock Grid.Row="0" Text="Python executable" VerticalAlignment="Center" FontSize="11" ToolTip.Tip="Python executable" />
+   <TextBox Grid.Row="0" Grid.Column="1" Text="{Binding PythonExecutable, Mode=TwoWay}" ToolTip.Tip="{Binding PythonExecutable}" AutomationProperties.Name="Python executable" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+   <Button Grid.Row="0" Grid.Column="2" Content="Browse…" Tag="python" Click="BrowseFile" AutomationProperties.Name="Browse Python executable" />
+   <TextBlock Grid.Row="1" Text="Python scripts" VerticalAlignment="Center" FontSize="11" ToolTip.Tip="Python scripts" />
+   <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding ScriptDirectory, Mode=TwoWay}" ToolTip.Tip="{Binding ScriptDirectory}" AutomationProperties.Name="Python scripts" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+   <Button Grid.Row="1" Grid.Column="2" Content="Browse…" Tag="scripts" Click="BrowseFolder" AutomationProperties.Name="Browse Python scripts" />
+   <TextBlock Grid.Row="2" Text="Dataset CSV" VerticalAlignment="Center" FontSize="11" ToolTip.Tip="Dataset CSV" />
+   <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding CsvPath, Mode=TwoWay}" ToolTip.Tip="{Binding CsvPath}" AutomationProperties.Name="Dataset CSV" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+   <Button Grid.Row="2" Grid.Column="2" Content="Browse…" Tag="csv" Click="BrowseFile" AutomationProperties.Name="Browse Dataset CSV" />
+   <TextBlock Grid.Row="3" Text="Raw CCD directory" VerticalAlignment="Center" FontSize="11" ToolTip.Tip="Raw CCD directory" />
+   <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding RawDirectory, Mode=TwoWay}" ToolTip.Tip="{Binding RawDirectory}" AutomationProperties.Name="Raw CCD directory" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+   <Button Grid.Row="3" Grid.Column="2" Content="Browse…" Tag="raw" Click="BrowseFolder" AutomationProperties.Name="Browse Raw CCD directory" />
+   <TextBlock Grid.Row="4" Text="FITS output directory" VerticalAlignment="Center" FontSize="11" ToolTip.Tip="FITS output directory" />
+   <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding FitsDirectory, Mode=TwoWay}" ToolTip.Tip="{Binding FitsDirectory}" AutomationProperties.Name="FITS output directory" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+   <Button Grid.Row="4" Grid.Column="2" Content="Browse…" Tag="fits" Click="BrowseFolder" AutomationProperties.Name="Browse FITS output directory" />
+   <TextBlock Grid.Row="5" Text="PNG output directory" VerticalAlignment="Center" FontSize="11" ToolTip.Tip="PNG output directory" />
+   <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding PngDirectory, Mode=TwoWay}" ToolTip.Tip="{Binding PngDirectory}" AutomationProperties.Name="PNG output directory" ScrollViewer.HorizontalScrollBarVisibility="Auto" Watermark="Legacy PNG root when empty" />
+   <Button Grid.Row="5" Grid.Column="2" Content="Browse…" Tag="png" Click="BrowseFolder" AutomationProperties.Name="Browse PNG output directory" />
+   </Grid>
+   <Button Content="Save Settings" Command="{Binding SaveCommand}" />
+   <TextBlock Text="{Binding Message}" TextWrapping="Wrap" FontSize="11" />
+  </StackPanel>
+ </ScrollViewer>
+</UserControl>

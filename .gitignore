@@ -1,0 +1,72 @@
+# .NET build output
+**/bin/
+**/obj/
+artifacts/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Visual Studio, Rider, VS Code and user settings
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+*.ncrunch*
+_ReSharper*/
+*.sln.iml
+
+# Avalonia tooling
+.avalonia-build-tasks/
+**/.avalonia-build-tasks/
+
+# Packages, publishing and local files
+*.nupkg
+*.snupkg
+*.pubxml.user
+*.log
+.DS_Store
+Thumbs.db
+work/
+
+# Build outputs
+bin/
+obj/
+publish/
+artifacts/
+
+# Distribution packages
+*.zip
+
+# Python environments/cache
+.venv/
+__pycache__/
+*.pyc
+
+# Observation/generated products
+fits/
+png/
+
+# TIFRES run staging/history
+.tifres-runs/
+
+# User-local settings
+settings.json
+session-presets.json
+
+# IDE
+.vs/
+.idea/
+
+@"
+
+# Temporary / backup / lock files
+~$*
+*.bak
+*.lock
+*.reduction.lock
+"@ | Add-Content .gitignore

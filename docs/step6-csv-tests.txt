@@ -1,0 +1,20 @@
+Loaded 23 datasets, 98 columns
+PASS Backup preserves original bytes
+PASS Every header and cell survives round-trip exactly as text
+PASS Quoted text and large DSNO preserved
+PASS All unedited cells preserved after editing
+PASS Duplicate DSNO rejected
+PASS Failed validation leaves original unchanged
+PASS Leading-zero duplicate rejected without floating point
+PASS Missing required field rejected
+PASS View model loads every dataset
+PASS Search finds exact large DSNO
+PASS Duplicate preserves template and requires new DSNO
+PASS Duplicated dataset saves and clears dirty flag
+PASS Add creates blank dataset using original schema
+PASS Invalid new dataset remains unsaved
+PASS Unknown columns, padding and leading zeros preserved
+PASS Malformed CSV rejected
+PASS No temporary save files left behind
+PASS Sample CSV remains unchanged
+SUCCESS: 18 checks passed.

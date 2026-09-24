@@ -1,0 +1,35 @@
+test_actual_referenced_sky_map_missing_remains_visible (test_status.StatusTests) ... ok
+test_all_products_present_and_proven_current (test_status.StatusTests) ... ok
+test_cancelled_and_incomplete_staged_products_are_ignored (test_status.StatusTests) ... ok
+test_changed_fibintwid_names_and_dependencies (test_status.StatusTests) ... ok
+test_changed_finterval_only_invalidates_trace_and_consumers (test_status.StatusTests) ... ok
+test_changed_raw_identity_and_source (test_status.StatusTests) ... ok
+test_changed_skyflat_selection (test_status.StatusTests) ... ok
+test_changed_wlflat_and_wavmap (test_status.StatusTests) ... ok
+test_concise_historical_diagnostics_and_real_errors (test_status.StatusTests) ... ok
+test_cycles_are_reported_without_recursion_failure (test_status.StatusTests) ... ok
+test_external_and_ambiguous_calibration_is_unknown (test_status.StatusTests) ... ok
+test_failed_run_record_cannot_establish_freshness (test_status.StatusTests) ... ok
+test_historical_without_provenance_is_unknown_not_invalid (test_status.StatusTests) ... ok
+test_invalid_and_truncated_fits (test_status.StatusTests) ... ok
+test_literal_width_wavmap_resolves_actual_dsno_and_width (test_status.StatusTests) ... ok
+test_missing_calibration_identifies_actual_producer (test_status.StatusTests) ... ok
+test_missing_intermediate (test_status.StatusTests) ... ok
+test_optional_manifest_does_not_hide_malformed_provenance (test_status.StatusTests) ... ok
+test_outdated_upstream_propagates_without_timestamp_changes (test_status.StatusTests) ... ok
+test_plot_and_overwrite_options_do_not_invalidate (test_status.StatusTests) ... ok
+test_read_only_cli_and_no_legacy_import (test_status.StatusTests) ... ok
+test_referenced_flat_map_is_still_required (test_status.StatusTests) ... ok
+test_required_hdu_and_wavelength_metadata (test_status.StatusTests) ... ok
+test_shared_calibrations_and_non_linear_graph (test_status.StatusTests) ... ok
+test_timestamps_alone_do_not_invalidate_identical_content (test_status.StatusTests) ... ok
+test_unknown_options_report_unknown_without_processing (test_status.StatusTests) ... ok
+test_unreferenced_flat_map_is_not_a_missing_pipeline_product (test_status.StatusTests) ... ok
+test_unrequired_map_honors_literal_width_and_parameter_errors (test_status.StatusTests) ... ok
+test_valid_external_replacement_without_matching_record_is_unknown (test_status.StatusTests) ... ok
+test_wavelength_parameters_scoped_to_actual_map_producer (test_status.StatusTests) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 34.376s
+
+OK

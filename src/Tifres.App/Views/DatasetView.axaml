@@ -1,0 +1,63 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:vm="using:Tifres.App.ViewModels" x:Class="Tifres.App.Views.DatasetView" x:DataType="vm:DatasetViewModel">
+ <Grid x:Name="DatasetLayout" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,130,Auto,*" RowSpacing="3" Margin="0,3,0,0">
+  <WrapPanel>
+   <Button Content="Open CSV" Click="OpenCsv" Margin="0,0,3,2" />
+   <Button Content="Save" Command="{Binding SaveCommand}" Margin="0,0,3,2" />
+   <Button Content="Add Dataset" Command="{Binding AddCommand}" Margin="0,0,3,2" />
+   <Button Content="Duplicate Dataset" Command="{Binding DuplicateCommand}" Margin="0,0,3,2" />
+  </WrapPanel>
+  <TextBlock Grid.Row="1" Text="{Binding FilePath}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding FilePath}" FontSize="11" />
+  <TextBlock Grid.Row="2" Text="● Unsaved changes" IsVisible="{Binding IsDirty}" Foreground="#A04700" FontWeight="Bold" />
+  <TextBlock Grid.Row="3" Text="{Binding Message}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Message}" FontSize="11" />
+  <Grid Grid.Row="4" ColumnDefinitions="78,*" ColumnSpacing="4">
+   <TextBlock Text="Search DSNO" VerticalAlignment="Center" />
+   <TextBox x:Name="DatasetSearch" Grid.Column="1" Text="{Binding Search, Mode=TwoWay}" Watermark="DSNO contains…" AutomationProperties.Name="Search DSNO" />
+  </Grid>
+  <Grid Grid.Row="5" ColumnDefinitions="100,65,*" Background="#E8EDF2" Margin="3,0" ColumnSpacing="3">
+   <TextBlock Text="DSNO" FontWeight="SemiBold" FontSize="11" />
+   <TextBlock Grid.Column="1" Text="DATATYPE" FontWeight="SemiBold" FontSize="11" />
+   <TextBlock Grid.Column="2" Text="FILENAME" FontWeight="SemiBold" FontSize="11" />
+  </Grid>
+  <ListBox x:Name="DatasetTable" Grid.Row="6" ItemsSource="{Binding FilteredRows}" SelectedItem="{Binding Selected, Mode=TwoWay}" AutomationProperties.Name="Datasets">
+   <ListBox.ItemTemplate>
+    <DataTemplate x:DataType="vm:DatasetRow">
+     <Grid ColumnDefinitions="100,65,*" ColumnSpacing="3">
+      <TextBlock Text="{Binding Dsno}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Dsno}" />
+      <TextBlock Grid.Column="1" Text="{Binding DataType}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding DataType}" />
+      <TextBlock Grid.Column="2" Text="{Binding Filename}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Filename}" />
+     </Grid>
+    </DataTemplate>
+   </ListBox.ItemTemplate>
+  </ListBox>
+  <TextBlock Grid.Row="7" Text="Dataset parameters" Classes="heading" />
+  <ScrollViewer x:Name="ParameterScroll" Grid.Row="8" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+   <ItemsControl x:Name="ParameterGroups" ItemsSource="{Binding Groups}" MinWidth="300">
+    <ItemsControl.ItemTemplate>
+     <DataTemplate x:DataType="vm:ParameterGroup">
+      <Expander Header="{Binding Name}" IsExpanded="True" HorizontalAlignment="Stretch" Margin="0,0,0,3">
+       <ItemsControl ItemsSource="{Binding Rows}">
+        <ItemsControl.ItemTemplate>
+         <DataTemplate x:DataType="vm:ParameterEditorRow">
+          <Grid Classes="parameterRow" ColumnDefinitions="*,6,*" Margin="0,1">
+           <Grid Grid.ColumnSpan="{Binding FirstSpan}" ColumnDefinitions="78,*" ColumnSpacing="3">
+            <TextBlock Text="{Binding First.Name}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding First.Name}" VerticalAlignment="Center" FontSize="11" />
+            <TextBox Classes="parameterValue" Grid.Column="1" Text="{Binding First.Value, Mode=TwoWay}"
+             ToolTip.Tip="{Binding First.Value}" AutomationProperties.Name="{Binding First.Name}" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+           </Grid>
+           <Grid Grid.Column="2" IsVisible="{Binding HasSecond}" ColumnDefinitions="70,*" ColumnSpacing="3">
+            <TextBlock Text="{Binding Second.Name}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Second.Name}" VerticalAlignment="Center" FontSize="11" />
+            <TextBox Classes="parameterValue" Grid.Column="1" Text="{Binding Second.Value, Mode=TwoWay}"
+             ToolTip.Tip="{Binding Second.Value}" AutomationProperties.Name="{Binding Second.Name}" ScrollViewer.HorizontalScrollBarVisibility="Auto" />
+           </Grid>
+          </Grid>
+         </DataTemplate>
+        </ItemsControl.ItemTemplate>
+       </ItemsControl>
+      </Expander>
+     </DataTemplate>
+    </ItemsControl.ItemTemplate>
+   </ItemsControl>
+  </ScrollViewer>
+ </Grid>
+</UserControl>

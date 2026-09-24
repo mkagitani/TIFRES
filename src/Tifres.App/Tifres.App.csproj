@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.22" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.22" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.22" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="../../python/tifres_quicklook.py" Link="python/tifres_quicklook.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/tifres_dependencies.py" Link="python/tifres_dependencies.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/tifres_provenance.py" Link="python/tifres_provenance.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/tifres_viewer.py" Link="python/tifres_viewer.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/tifres_status.py" Link="python/tifres_status.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/tifres_publication.py" Link="python/tifres_publication.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/tifres_launcher.py" Link="python/tifres_launcher.py" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/legacy/*.py" Link="python/legacy/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../python/legacy/psg/*.txt" Link="python/legacy/psg/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../packaging/requirements-win-py310.txt" Link="requirements.txt" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../packaging/README-Windows.md" Link="README-Windows.md" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+  <Target Name="PortableDistributionConfig" AfterTargets="Publish" Condition="'$(TifresDistribution)' == 'true'">
+    <Copy SourceFiles="$(MSBuildProjectDirectory)/../../packaging/cfg.py" DestinationFiles="$(PublishDir)python/legacy/cfg.py" />
+  </Target>
+</Project>

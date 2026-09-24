@@ -1,0 +1,109 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:vm="using:Tifres.App.ViewModels" xmlns:services="using:Tifres.App.Services" x:Class="Tifres.App.Views.OperationsView" x:DataType="vm:OperationsViewModel">
+ <Grid x:Name="OperationsLayout" RowSpacing="3" Margin="0,3,0,0">
+  <Grid.RowDefinitions>
+   <RowDefinition Height="2*" MinHeight="105" MaxHeight="190" />
+   <RowDefinition Height="Auto" />
+   <RowDefinition Height="Auto" />
+   <RowDefinition Height="Auto" />
+   <RowDefinition Height="Auto" />
+   <RowDefinition Height="*" MinHeight="50" />
+   <RowDefinition Height="4" />
+   <RowDefinition Height="*" MinHeight="50" />
+  </Grid.RowDefinitions>
+  <ScrollViewer x:Name="OptionsScroll" Grid.Row="0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+   <StackPanel Spacing="3" Margin="0,0,4,0" IsEnabled="{Binding !IsRunning}">
+    <Grid x:Name="DsnoRow" ColumnDefinitions="Auto,90,*" ColumnSpacing="4">
+     <TextBlock Text="DSNO" VerticalAlignment="Center" />
+     <Grid Grid.Column="1">
+      <TextBlock x:Name="SelectedDsnoText" Text="{Binding SelectedDsno}" IsVisible="{Binding UseSelected}" FontWeight="SemiBold" VerticalAlignment="Center" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding SelectedDsno}" />
+      <TextBox Text="{Binding Dsno, Mode=TwoWay}" IsVisible="{Binding !UseSelected}" AutomationProperties.Name="DSNO list" />
+     </Grid>
+     <CheckBox x:Name="UseSelectedCheckBox" Grid.Column="2" IsChecked="{Binding UseSelected, Mode=TwoWay}"><TextBlock Text="Use selected Dataset DSNO" TextWrapping="Wrap" FontSize="11" /></CheckBox>
+    </Grid>
+    <Button Content="Open CSV" Command="{Binding UseCsvCommand}" ToolTip.Tip="Open Settings CSV in Dataset" />
+    <Grid ColumnDefinitions="48,*" ColumnSpacing="4">
+     <TextBlock Text="Step" VerticalAlignment="Center" />
+     <ComboBox Grid.Column="1" ItemsSource="{Binding Steps}" SelectedItem="{Binding Step, Mode=TwoWay}" HorizontalAlignment="Stretch" />
+    </Grid>
+    <TextBlock Text="Options (JSON; overwrite controlled below)" FontSize="11" />
+    <TextBox Classes="multiline" Text="{Binding OptionsJson, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" Height="52" AutomationProperties.Name="Processing options" />
+
+   </StackPanel>
+  </ScrollViewer>
+  <Grid x:Name="RunRow" Grid.Row="1" ColumnDefinitions="Auto,Auto,*" ColumnSpacing="4">
+   <Button x:Name="RunButton" Content="Run" Command="{Binding RunCommand}" IsEnabled="{Binding !IsRunning}" />
+   <Button x:Name="StopButton" Grid.Column="1" Content="Stop" Command="{Binding StopCommand}" IsEnabled="{Binding IsRunning}" />
+   <CheckBox x:Name="OverwriteCheckBox" Grid.Column="2" Content="Overwrite" IsChecked="{Binding Overwrite, Mode=TwoWay}" IsEnabled="{Binding !IsRunning}" />
+  </Grid>
+  <StackPanel Grid.Row="2" Spacing="0">
+   <TextBlock Text="{Binding Elapsed, StringFormat='Elapsed: {0}'}" FontSize="11" />
+   <TextBlock x:Name="StatusText" Text="{Binding Status}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Status}" FontWeight="SemiBold" />
+   <TextBlock Text="{Binding RunningDescription}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding RunningDescription}" FontSize="11" />
+   <TextBlock x:Name="OverwriteStateText" Text="{Binding EffectiveOverwriteState}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding EffectiveOverwriteState}" FontSize="11" />
+  </StackPanel>
+  <Grid Grid.Row="3" RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" ColumnSpacing="4">
+   <TextBlock Text="Reduction Status" Classes="heading" VerticalAlignment="Center" />
+   <Button x:Name="RefreshStatusButton" Grid.Column="1" Content="Refresh Status" Command="{Binding RefreshStatusCommand}" IsEnabled="{Binding !IsInspecting}" />
+   <TextBlock x:Name="ProductStatusMessage" Grid.Row="1" Grid.ColumnSpan="2" Text="{Binding ProductStatusMessage}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding ProductStatusMessage}" FontSize="11" />
+  </Grid>
+  <Grid Grid.Row="4" RowDefinitions="Auto,114">
+   <Grid ColumnDefinitions="133,68,*" ColumnSpacing="3" Background="#E8EDF2" Margin="3,0">
+    <TextBlock Text="Processing step" FontSize="11" FontWeight="SemiBold" />
+    <TextBlock Grid.Column="1" Text="Status" FontSize="11" FontWeight="SemiBold" />
+    <TextBlock Grid.Column="2" Text="Expected outputs" FontSize="11" FontWeight="SemiBold" />
+   </Grid>
+   <ListBox x:Name="ProductStatusList" Grid.Row="1" ItemsSource="{Binding ProductStatuses}" SelectedItem="{Binding SelectedProductStatus, Mode=TwoWay}" AutomationProperties.Name="Reduction Status">
+    <ListBox.ItemTemplate>
+     <DataTemplate x:DataType="services:ProductNode">
+      <Grid ColumnDefinitions="133,68,*" ColumnSpacing="3">
+       <TextBlock Text="{Binding Label}" TextTrimming="CharacterEllipsis" ToolTip.Tip="{Binding Label}" />
+       <TextBlock Grid.Column="1" Text="{Binding Status}" FontWeight="SemiBold" />
+       <TextBlock Grid.Column="2" Text="{Binding ExpectedFiles}" TextTrimming="CharacterEllipsis" MaxLines="1" ToolTip.Tip="{Binding ExpectedFiles}" />
+      </Grid>
+     </DataTemplate>
+    </ListBox.ItemTemplate>
+   </ListBox>
+  </Grid>
+  <ScrollViewer x:Name="DetailsScroll" Grid.Row="5" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Background="#F8FAFC">
+   <StackPanel Spacing="4" Margin="4">
+    <TextBlock Text="Selected-step details" Classes="heading" />
+    <ContentControl Content="{Binding SelectedProductStatus}">
+     <ContentControl.ContentTemplate>
+      <DataTemplate x:DataType="services:ProductNode">
+       <StackPanel Spacing="3">
+        <TextBlock Text="{Binding Heading}" FontWeight="SemiBold" TextWrapping="Wrap" />
+        <TextBlock Text="{Binding ExpectedFiles}" TextWrapping="Wrap" />
+        <TextBlock Text="{Binding Explanation}" TextWrapping="Wrap" />
+        <TextBlock Text="{Binding Relationships}" TextWrapping="Wrap" />
+       </StackPanel>
+      </DataTemplate>
+     </ContentControl.ContentTemplate>
+    </ContentControl>
+    <Expander Header="Referenced calibration stages" HorizontalAlignment="Stretch">
+     <ItemsControl ItemsSource="{Binding CalibrationStatuses}">
+      <ItemsControl.ItemTemplate>
+       <DataTemplate x:DataType="services:ProductNode">
+        <StackPanel Spacing="3" Margin="0,3">
+         <TextBlock Text="{Binding Heading}" FontWeight="SemiBold" TextWrapping="Wrap" />
+         <TextBlock Text="{Binding ExpectedFiles}" TextWrapping="Wrap" />
+         <TextBlock Text="{Binding Explanation}" TextWrapping="Wrap" />
+         <TextBlock Text="{Binding Relationships}" TextWrapping="Wrap" />
+        </StackPanel>
+       </DataTemplate>
+      </ItemsControl.ItemTemplate>
+     </ItemsControl>
+    </Expander>
+    <TextBlock Text="{Binding ProductStatusMessage}" TextWrapping="Wrap" FontSize="11" />
+    <Expander Header="Inspection diagnostics" HorizontalAlignment="Stretch"><SelectableTextBlock Text="{Binding StatusDiagnostics}" TextWrapping="Wrap" FontSize="11" /></Expander>
+   </StackPanel>
+  </ScrollViewer>
+  <GridSplitter Grid.Row="6" ResizeDirection="Rows" ResizeBehavior="PreviousAndNext" VerticalAlignment="Stretch" />
+  <Grid Grid.Row="7" RowDefinitions="Auto,*">
+   <TextBlock Text="Recent log · stdout / stderr" Classes="heading" />
+   <ScrollViewer x:Name="LogScroll" Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Background="#F8FAFC">
+    <SelectableTextBlock Text="{Binding Log}" TextWrapping="NoWrap" FontFamily="monospace" FontSize="11" AutomationProperties.Name="Execution log" Margin="3" />
+   </ScrollViewer>
+  </Grid>
+ </Grid>
+</UserControl>

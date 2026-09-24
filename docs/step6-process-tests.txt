@@ -1,0 +1,35 @@
+PASS DSNO strings retain all digits
+PASS Floating-point DSNO rejected
+PASS Duplicate DSNO rejected
+PASS JSON options serialize with native types
+PASS Duplicate option keys rejected
+PASS Missing Python executable rejected
+PASS Missing launcher/input paths rejected
+PASS Settings persist and restore
+PASS Python executable/version validation
+PASS Exit code and both output streams propagated
+PASS Successful process exit
+PASS Conflicting reductions blocked
+PASS Cancellation terminates process
+PASS Cancellation terminates child process tree
+PASS Cancellation leaves existing output files intact
+PASS Process gate released after cancellation
+PASS Stop signal returns immediately even after parent exit
+PASS Inherited stdout/stderr handles do not deadlock cancellation
+PASS Containment kills child after Python parent has exited
+PASS Stop cancels staged generation despite heavy stdout and stderr
+PASS Stop kills mock fitting child process
+PASS Cancelled staged write preserves existing FITS with overwrite ON
+PASS Cancellation preserves original dataset CSV
+PASS Incomplete product remains confined to recovery directory
+PASS Cancellation retains recovery manifest
+PASS Run available after staged cancellation
+PASS Formatting mock exits successfully
+PASS Raw stdout preserves dots, end='', blank lines, CR, LF and partial lines
+PASS Raw stderr preserves fragments and newline without repeated prefixes
+PASS Regression exercises multiple asynchronous output chunks
+PASS Display formatting is independent of chunk boundaries and updates CR progress
+PASS Continuous partial output stays bounded without synthetic newlines
+PASS Cancellation terminates continuous stdout without line endings
+PASS Cancellation does not inject line endings into process output
+SUCCESS: 34 checks passed.

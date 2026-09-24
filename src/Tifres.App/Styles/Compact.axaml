@@ -1,0 +1,20 @@
+<Styles xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+ <Style Selector="Window"><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="UserControl"><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="TextBlock.heading"><Setter Property="FontSize" Value="13" /><Setter Property="FontWeight" Value="SemiBold" /><Setter Property="Foreground" Value="#172B42" /></Style>
+ <Style Selector="TextBlock.muted"><Setter Property="Foreground" Value="#526477" /></Style>
+ <Style Selector="TextBlock.axis"><Setter Property="FontSize" Value="11" /><Setter Property="Foreground" Value="#526477" /></Style>
+ <Style Selector="Button"><Setter Property="MinHeight" Value="26" /><Setter Property="Padding" Value="7,2" /><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="TextBox"><Setter Property="MinHeight" Value="26" /><Setter Property="Padding" Value="5,2" /><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="TextBox.multiline"><Setter Property="MinHeight" Value="48" /></Style>
+ <Style Selector="ComboBox"><Setter Property="MinHeight" Value="26" /><Setter Property="Padding" Value="5,2" /><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="CheckBox"><Setter Property="MinHeight" Value="24" /><Setter Property="Padding" Value="2,0" /><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="TabItem"><Setter Property="MinHeight" Value="28" /><Setter Property="Padding" Value="8,3" /><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="ListBox"><Setter Property="FontSize" Value="11" /><Setter Property="Padding" Value="0" /></Style>
+ <Style Selector="ListBoxItem"><Setter Property="MinHeight" Value="22" /><Setter Property="Padding" Value="3,1" /><Setter Property="HorizontalContentAlignment" Value="Stretch" /></Style>
+ <Style Selector="Expander"><Setter Property="Padding" Value="0" /><Setter Property="FontSize" Value="12" /></Style>
+ <Style Selector="Expander /template/ ToggleButton"><Setter Property="MinHeight" Value="26" /><Setter Property="Padding" Value="3,2" /></Style>
+ <Style Selector="Border.panel"><Setter Property="Background" Value="White" /><Setter Property="BorderBrush" Value="#CBD2DA" /><Setter Property="BorderThickness" Value="1" /><Setter Property="CornerRadius" Value="3" /><Setter Property="Padding" Value="6" /></Style>
+ <Style Selector="Border.plot"><Setter Property="Background" Value="#F8FAFC" /><Setter Property="BorderBrush" Value="#CBD2DA" /><Setter Property="BorderThickness" Value="1" /></Style>
+ <Style Selector="GridSplitter"><Setter Property="Background" Value="#CBD2DA" /></Style>
+</Styles>

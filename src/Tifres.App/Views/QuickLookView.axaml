@@ -1,0 +1,55 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ xmlns:vm="using:Tifres.App.ViewModels" xmlns:models="using:Tifres.App.Models"
+ x:Class="Tifres.App.Views.QuickLookView" x:DataType="vm:QuickLookViewModel">
+ <Grid RowDefinitions="3*,Auto,Auto,Auto,*,*" RowSpacing="4" Margin="2">
+  <ScrollViewer x:Name="QuickFormScroll" Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+   <StackPanel Spacing="4" Margin="0,0,5,0" IsEnabled="{Binding !IsRunning}">
+    <TextBlock Text="Session Preset" FontWeight="SemiBold" />
+    <ComboBox ItemsSource="{Binding Presets}" SelectedItem="{Binding SelectedPreset, Mode=TwoWay}" HorizontalAlignment="Stretch">
+     <ComboBox.ItemTemplate><DataTemplate x:DataType="models:SessionPreset"><TextBlock Text="{Binding Name}" /></DataTemplate></ComboBox.ItemTemplate>
+    </ComboBox>
+    <WrapPanel>
+     <Button Content="New Preset" Command="{Binding NewCommand}" />
+     <Button Content="Save Preset" Command="{Binding SaveCommand}" />
+     <Button Content="Duplicate" Command="{Binding DuplicateCommand}" />
+     <Button Content="Delete…" Click="DeletePreset" />
+    </WrapPanel>
+    <Grid ColumnDefinitions="75,*"><TextBlock Text="Name" VerticalAlignment="Center"/><TextBox Grid.Column="1" Text="{Binding Name, Mode=TwoWay}"/></Grid>
+    <TextBlock Text="{Binding CalibrationSummary}" FontSize="11" TextWrapping="Wrap" />
+    <Expander Header="Edit preset calibrations and options">
+     <StackPanel Spacing="3">
+      <TextBlock Text="Calibration/fixed CSV fields (JSON strings; blank means unset)" TextWrapping="Wrap" FontSize="11"/>
+      <TextBox Text="{Binding FieldsJson, Mode=TwoWay}" AcceptsReturn="True" TextWrapping="Wrap" MinHeight="140"/>
+      <TextBlock Text="SpFrames options"/><TextBox Text="{Binding SpOptions, Mode=TwoWay}" TextWrapping="Wrap"/>
+      <TextBlock Text="Fiber Spec options (width comes from FIBINTWID)"/><TextBox Text="{Binding FiberOptions, Mode=TwoWay}" TextWrapping="Wrap"/>
+      <TextBlock Text="Wcal Spec options (width comes from FIBINTWID)"/><TextBox Text="{Binding WcalOptions, Mode=TwoWay}" TextWrapping="Wrap"/>
+      <TextBlock Text="Fiber Fit options / finterval (stored; never run here)"/><TextBox Text="{Binding Interval, Mode=TwoWay}" TextWrapping="Wrap"/>
+      <TextBlock Text="Session notes"/><TextBox Text="{Binding Notes, Mode=TwoWay}" TextWrapping="Wrap"/>
+     </StackPanel>
+    </Expander>
+    <TextBlock Text="New dataset" FontWeight="SemiBold"/>
+    <Grid ColumnDefinitions="75,*"><TextBlock Text="DSNO" VerticalAlignment="Center"/><TextBox Grid.Column="1" Text="{Binding Dsno, Mode=TwoWay}"/></Grid>
+    <Grid ColumnDefinitions="75,*"><TextBlock Text="DATATYPE" VerticalAlignment="Center"/><TextBox Grid.Column="1" Text="{Binding DataType, Mode=TwoWay}"/></Grid>
+    <Button Content="Select Raw FITS…" Click="SelectRaw"/>
+    <Grid ColumnDefinitions="75,*"><TextBlock Text="ORIGIN" VerticalAlignment="Center"/><TextBox Grid.Column="1" Text="{Binding Origin, Mode=TwoWay}"/></Grid>
+    <Grid ColumnDefinitions="75,*"><TextBlock Text="FILENAME" VerticalAlignment="Center"/><TextBox Grid.Column="1" Text="{Binding Filename, Mode=TwoWay}"/></Grid>
+    <TextBlock Text="Proposals are editable. Blank means no reliable inference; enter explicitly." FontSize="11" TextWrapping="Wrap"/>
+    <CheckBox IsChecked="{Binding Force, Mode=TwoWay}"><TextBlock Text="Force regenerate Quick Look products" TextWrapping="Wrap"/></CheckBox>
+    <TextBlock Text="Default: reuse valid products, regardless of Operations overwrite." FontSize="11" TextWrapping="Wrap"/>
+    <Button Content="Preview Registration" Command="{Binding PreviewCommand}"/>
+    <TextBlock Text="{Binding RawSummary}" TextWrapping="Wrap" FontSize="11"/>
+    <TextBlock Text="{Binding Preview}" TextWrapping="Wrap" FontSize="11"/>
+   </StackPanel>
+  </ScrollViewer>
+  <CheckBox Grid.Row="1" IsEnabled="{Binding !IsRunning}" IsChecked="{Binding Confirmed, Mode=TwoWay}">
+   <TextBlock Text="I reviewed the registration, filename and complete matched raw file list" TextWrapping="Wrap" FontSize="11"/>
+  </CheckBox>
+  <StackPanel Grid.Row="2" Orientation="Horizontal" Spacing="6">
+   <Button x:Name="QuickRun" Content="Reduce &amp; Open" Command="{Binding RunCommand}" IsEnabled="{Binding !IsRunning}"/>
+   <Button x:Name="QuickStop" Content="Stop" Command="{Binding StopCommand}" IsEnabled="{Binding IsRunning}"/>
+  </StackPanel>
+  <StackPanel Grid.Row="3"><ScrollViewer MaxHeight="80"><TextBlock Text="{Binding Status}" TextWrapping="Wrap"/></ScrollViewer><TextBlock Text="{Binding Elapsed}" FontSize="11"/></StackPanel>
+  <ScrollViewer Grid.Row="4"><TextBlock Text="{Binding Progress}" TextWrapping="Wrap"/></ScrollViewer>
+  <TextBox Grid.Row="5" Text="{Binding Log}" IsReadOnly="True" AcceptsReturn="True" TextWrapping="Wrap" FontFamily="Consolas" FontSize="11"/>
+ </Grid>
+</UserControl>

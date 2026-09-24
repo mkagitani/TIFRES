@@ -1,0 +1,291 @@
+PASS GUI progress fragments do not acquire newlines (actual: "...")
+PASS GUI preserves partial text and explicit blank lines
+PASS GUI carriage return updates current line and split CRLF produces one newline
+PASS Overwrite defaults ON
+PASS GUI finterval starts at 8 (options-section requirement)
+PASS Fiber fitting starts without pauses
+PASS finterval 1 retained across step changes
+PASS finterval 16 retained across step changes
+PASS finterval 8 retained across step changes
+PASS Last-used finterval 16 persists across restart
+PASS PNG directory persists across restart
+PASS Wavelength calibration defaults flgPlot=false
+PASS Diagnostic plotting can be enabled explicitly
+PASS Opening CSV does not select sample DSNO 1
+PASS Run rejected without explicit dataset selection
+PASS Placeholder dataset with invalid FILENAME cannot run
+PASS Displayed and requested DSNO follow selected dataset
+PASS Selection changes preserve every DSNO digit
+PASS Operations initialized after selection displays current DSNO
+PASS Selected row edits notify Operations immediately
+PASS Unsaved DSNO cannot be processed
+PASS Saved edited DSNO used in request
+PASS Filtering out selection never substitutes another DSNO
+PASS Filtered-out selection cannot run
+PASS Clearing search retains an explicit matching selection
+PASS Stale dataset values cannot run after external CSV edit
+PASS Selection from a different CSV rejected
+PASS Unknown manual DSNO rejected
+PASS mkSpFrames4f: editable defaults have no competing overwrite flag
+PASS mkSpFrames4f: checkbox False wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkSpFrames4f: checkbox True wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkFibFit4c: editable defaults have no competing overwrite flag
+PASS mkFibFit4c: checkbox False wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkFibFit4c: checkbox True wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkFibSpec4d: editable defaults have no competing overwrite flag
+PASS mkFibSpec4d: checkbox False wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkFibSpec4d: checkbox True wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkWavMap4d: editable defaults have no competing overwrite flag
+PASS mkWavMap4d: checkbox False wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkWavMap4d: checkbox True wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkWcalSpec4d: editable defaults have no competing overwrite flag
+PASS mkWcalSpec4d: checkbox False wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS mkWcalSpec4d: checkbox True wins over contradictory JSON
+PASS Visible effective overwrite matches checkbox
+PASS Python JSON and overwrite switch agree
+PASS 900, 650: options have a bounded scroll viewport
+PASS 900, 650: RunButton remains inside visible Operations panel
+PASS RunButton stays outside the options scroller
+PASS 900, 650: StopButton remains inside visible Operations panel
+PASS StopButton stays outside the options scroller
+PASS 900, 650: StatusText remains inside visible Operations panel
+PASS StatusText stays outside the options scroller
+PASS 900, 650: OverwriteStateText remains inside visible Operations panel
+PASS OverwriteStateText stays outside the options scroller
+PASS 900, 650: LogScroll remains inside visible Operations panel
+PASS LogScroll stays outside the options scroller
+PASS Scrolling options leaves run controls fixed
+PASS 1100, 760: options have a bounded scroll viewport
+PASS 1100, 760: RunButton remains inside visible Operations panel
+PASS RunButton stays outside the options scroller
+PASS 1100, 760: StopButton remains inside visible Operations panel
+PASS StopButton stays outside the options scroller
+PASS 1100, 760: StatusText remains inside visible Operations panel
+PASS StatusText stays outside the options scroller
+PASS 1100, 760: OverwriteStateText remains inside visible Operations panel
+PASS OverwriteStateText stays outside the options scroller
+PASS 1100, 760: LogScroll remains inside visible Operations panel
+PASS LogScroll stays outside the options scroller
+PASS Scrolling options leaves run controls fixed
+PASS 1440, 960: options have a bounded scroll viewport
+PASS 1440, 960: RunButton remains inside visible Operations panel
+PASS RunButton stays outside the options scroller
+PASS 1440, 960: StopButton remains inside visible Operations panel
+PASS StopButton stays outside the options scroller
+PASS 1440, 960: StatusText remains inside visible Operations panel
+PASS StatusText stays outside the options scroller
+PASS 1440, 960: OverwriteStateText remains inside visible Operations panel
+PASS OverwriteStateText stays outside the options scroller
+PASS 1440, 960: LogScroll remains inside visible Operations panel
+PASS LogScroll stays outside the options scroller
+PASS Scrolling options leaves run controls fixed
+PASS Compiled Operations binding displays actual selected DSNO
+PASS Dataset table selection updates the shared view model
+PASS Switching tabs preserves the table-selected DSNO in display and request
+PASS Root columns default to 2:1, with a splitter column
+PASS Old three-row root layout is removed
+PASS Display columns default to 1:4
+PASS Display rows default to 4:2
+PASS InformationPanel occupies the requested quadrant
+PASS SpectralImagePanel occupies the requested quadrant
+PASS IfuPanel occupies the requested quadrant
+PASS SpectrumPanel occupies the requested quadrant
+PASS Rendered default root widths are approximately 2:1
+PASS Rendered default left widths are approximately 1:4
+PASS Persistent information panel shows selected DSNO
+PASS Persistent notes retain two-way editing
+PASS Narrow information panel scrolls independently
+PASS WorkspaceSplitter is available
+PASS DisplayColumnSplitter is available
+PASS DisplayRowSplitter is available
+PASS Compact editor retains every one of the 98 CSV fields
+PASS DSNO and DATATYPE share a parameter row
+PASS Paths and comma-separated values use full-width rows
+PASS Dataset table has compact rows and font
+PASS Dataset parameter TextBox has compact readable height
+PASS Long parameter edits are preserved internally with a full-value tooltip
+PASS Compact editor still saves values and clears unsaved state
+PASS Settings uses six Label | TextBox | Browse rows
+PASS Settings row 1 aligns compact controls on one line
+PASS Settings row 2 aligns compact controls on one line
+PASS Settings row 3 aligns compact controls on one line
+PASS Settings row 4 aligns compact controls on one line
+PASS Settings row 5 aligns compact controls on one line
+PASS Settings row 6 aligns compact controls on one line
+PASS Compact Settings preserves existing JSON/path persistence
+PASS Status table selects a separate details model
+PASS 900, 650: right tabs occupy full workspace height
+PASS 900, 650: measured left rows keep 2:1 heights
+PASS 900, 650: bottom IFU and spectrum outer heights match
+PASS 900, 650: IFU preserves its physical 10:12 aspect ratio
+PASS 900, 650: IFU image is centered in its available area
+PASS 900, 650: RunButton remains visible after resizing
+PASS 900, 650: StopButton remains visible after resizing
+PASS 900, 650: RefreshStatusButton remains visible after resizing
+PASS 900, 650: ProductStatusList remains visible after resizing
+PASS 900, 650: DetailsScroll remains visible after resizing
+PASS 900, 650: LogScroll remains visible after resizing
+PASS 900, 650: compact status table shows all five stages
+PASS 900, 650: all five status rows fit without vertical clipping
+PASS 900, 650: details and log scroll independently of options
+PASS 1100, 760: right tabs occupy full workspace height
+PASS 1100, 760: measured left rows keep 2:1 heights
+PASS 1100, 760: bottom IFU and spectrum outer heights match
+PASS 1100, 760: IFU preserves its physical 10:12 aspect ratio
+PASS 1100, 760: IFU image is centered in its available area
+PASS 1100, 760: RunButton remains visible after resizing
+PASS 1100, 760: StopButton remains visible after resizing
+PASS 1100, 760: RefreshStatusButton remains visible after resizing
+PASS 1100, 760: ProductStatusList remains visible after resizing
+PASS 1100, 760: DetailsScroll remains visible after resizing
+PASS 1100, 760: LogScroll remains visible after resizing
+PASS 1100, 760: compact status table shows all five stages
+PASS 1100, 760: all five status rows fit without vertical clipping
+PASS 1100, 760: details and log scroll independently of options
+PASS 1440, 960: right tabs occupy full workspace height
+PASS 1440, 960: measured left rows keep 2:1 heights
+PASS 1440, 960: bottom IFU and spectrum outer heights match
+PASS 1440, 960: IFU preserves its physical 10:12 aspect ratio
+PASS 1440, 960: IFU image is centered in its available area
+PASS 1440, 960: RunButton remains visible after resizing
+PASS 1440, 960: StopButton remains visible after resizing
+PASS 1440, 960: RefreshStatusButton remains visible after resizing
+PASS 1440, 960: ProductStatusList remains visible after resizing
+PASS 1440, 960: DetailsScroll remains visible after resizing
+PASS 1440, 960: LogScroll remains visible after resizing
+PASS 1440, 960: compact status table shows all five stages
+PASS 1440, 960: all five status rows fit without vertical clipping
+PASS 1440, 960: details and log scroll independently of options
+PASS Left row splitter changes panel proportions
+PASS Left column splitter changes panel proportions
+PASS Workspace splitter resizes the full-height right panel
+PASS IFU ellipse enabled by default
+PASS Ellipse uses full axis lengths and physical center
+PASS Positive position angle rotates counterclockwise in physical coordinates
+PASS All original fiber IDs survive X=False,Y=False,size=100, 120
+PASS Ellipse shares image inversion and resize transform X=False,Y=False,size=100, 120
+PASS All original fiber IDs survive X=False,Y=False,size=250, 300
+PASS Ellipse shares image inversion and resize transform X=False,Y=False,size=250, 300
+PASS All original fiber IDs survive X=False,Y=True,size=100, 120
+PASS Ellipse shares image inversion and resize transform X=False,Y=True,size=100, 120
+PASS All original fiber IDs survive X=False,Y=True,size=250, 300
+PASS Ellipse shares image inversion and resize transform X=False,Y=True,size=250, 300
+PASS All original fiber IDs survive X=True,Y=False,size=100, 120
+PASS Ellipse shares image inversion and resize transform X=True,Y=False,size=100, 120
+PASS All original fiber IDs survive X=True,Y=False,size=250, 300
+PASS Ellipse shares image inversion and resize transform X=True,Y=False,size=250, 300
+PASS All original fiber IDs survive X=True,Y=True,size=100, 120
+PASS Ellipse shares image inversion and resize transform X=True,Y=True,size=100, 120
+PASS All original fiber IDs survive X=True,Y=True,size=250, 300
+PASS Ellipse shares image inversion and resize transform X=True,Y=True,size=250, 300
+PASS Outside-image clicks cannot select fibers
+PASS IFU range accepts negative fractions independently
+PASS Spectral range does not change IFU range
+PASS Equal and reversed ranges rejected; last valid ranges retained
+PASS Nonfinite ranges and negative axes rejected
+PASS All valid ellipse, inversion and independent ranges persist across sessions
+PASS Display edits never mutate underlying arrays
+PASS Display range changes rendered intensity
+PASS Ellipse is a separate, exactly aligned overlay layer
+PASS UI inversion bindings and overlay selection preserve fiber 97: False,False
+PASS UI inversion bindings and overlay selection preserve fiber 97: False,True
+PASS UI inversion bindings and overlay selection preserve fiber 97: True,False
+PASS UI inversion bindings and overlay selection preserve fiber 97: True,True
+PASS Compiled display controls update distinct properties
+PASS Ellipse enabled binding controls overlay visibility
+PASS DSNO checkbox follows the DSNO value in the same row
+PASS Overwrite defaults ON after Run and Stop in their row
+PASS Operations checkboxes retain two-way bindings and effective authority
+PASS 900, 650: compact persistent controls scroll vertically
+PASS 900, 650: display inputs fit narrow panel without horizontal clipping
+PASS 900, 650: bottom display controls remain reachable
+PASS Overwrite stays accessible with Run and Stop
+PASS 1100, 760: compact persistent controls scroll vertically
+PASS 1100, 760: display inputs fit narrow panel without horizontal clipping
+PASS 1100, 760: bottom display controls remain reachable
+PASS Overwrite stays accessible with Run and Stop
+PASS 1440, 960: compact persistent controls scroll vertically
+PASS 1440, 960: display inputs fit narrow panel without horizontal clipping
+PASS 1440, 960: bottom display controls remain reachable
+PASS Overwrite stays accessible with Run and Stop
+PASS Previous-version manual ranges survive loading a real cube
+PASS Loaded cube maps original fiber 97 to X=7,Y=9
+PASS Single numeric entry snaps to nearest wavelength and preserves invalid samples
+PASS Slider and numeric wavelength stay synchronized
+PASS Inclusive Mean ignores NaN samples
+PASS Sum is sample sum, not wavelength-weighted integration
+PASS Empty wavelength interval displays no data and an explicit message
+PASS Shared multiple selection Mean ignores invalid fiber samples
+PASS Selected-fiber Sum displays only the requested combination
+PASS Inactive and wholly invalid fibers cannot silently replace selection
+PASS Ctrl toggle removes a selected fiber
+PASS Rectangular spatial selection preserves original IDs
+PASS Spectral range selection excludes inactive/invalid fibers without renumbering
+PASS Independent manual image limits survive wavelength changes
+PASS Manual spectrum intensity range independent of image ranges
+PASS Wavelength zoom and pan use calibrated coordinates
+PASS Reset shows the full real wavelength range
+PASS Viewer combination, auto/manual and display controls persist
+PASS Repeated wavelength changes use the same immutable cached cube
+PASS Generate synthetic 3D FITS: 
+PASS Astropy binary transfer preserves double values, orientation and exact wavelength samples
+PASS Viewer asynchronously loads through configured Python
+PASS Viewing continues after source removal without another disk read
+PASS Failed load is explicit and retains the previous cube
+PASS Close releases cached cube and selections
+PASS Close during loading cancels and cannot install a late cube
+PASS Missing Python executable/input rejected without replacing the cube
+PASS Latest large-cube integration wins after rapid changes, without blocking UI
+PASS Closed cube cannot be repopulated by an old background calculation
+PASS DSNO product resolution respects fibintwid without unrelated fallback
+PASS Multiple matching products are offered for explicit selection
+PASS Read-only representative WC copy: 2048 wavelengths, 113 active fibers, missing units explicit
+PASS Real WC uses sample centers, not exclusive WAVMAX
+PASS Actual loaded IFU mouse mapping under inversions False,False
+PASS Actual loaded IFU mouse mapping under inversions False,True
+PASS Actual loaded IFU mouse mapping under inversions True,False
+PASS Actual loaded IFU mouse mapping under inversions True,True
+PASS Spectral mouse selection updates the same state as IFU
+PASS Actual Ctrl-click adds spectral fiber to shared selection
+PASS Actual IFU drag selects a rectangular group after inversion
+PASS Skia renders the real cube image, ellipse and spectrum
+PASS Wavelength integration, selection and ellipse edits reuse the spectral bitmap
+PASS Spectral intensity change rebuilds the buffered image exactly once
+PASS Compact parameter labels and values share a row
+PASS Compact values retain readable input width
+PASS GUI starts long-running mock fiber fit
+PASS GUI remains responsive during stdout/stderr flood
+PASS Stop command responds immediately in GUI
+PASS Cancelled run cannot report Completed
+PASS Run re-enabled and Stop disabled after cancellation
+PASS GUI Stop preserves previously valid FITS
+PASS GUI reports retained recovery directory
+PASS Cancelled run automatically refreshes all five product statuses
+PASS Status response remains bound to selected DSNO
+PASS Mock invalid and incomplete products cannot appear Complete
+PASS Compiled status list binding displays all stages
+PASS Refresh Status runs asynchronously
+PASS GUI status inspection is read-only
+PASS Main status message is concise with counts
+PASS Detailed inspection diagnostics remain available separately
+PASS Changing dataset clears stale status
+PASS Status inspection rejects missing selection without starting reduction
+SUCCESS: 290 GUI regression checks passed.
